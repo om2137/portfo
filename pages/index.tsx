@@ -10,12 +10,14 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-top pt-10 px-20 text-center dark:bg-slate-900 ">
+      <main className="flex w-full flex-1 flex-col items-center justify-top pt-10 px-20 text-center  ">
         <div>
           <div className='flex items-center justify-center w-100 pb-4'>
-              <img src="https://avatars.githubusercontent.com/u/33827410?s=400&u=d7fa33a6aba54a8748942939d48217d9ba0fcf84&v=4"  className="flex rounded-full" width="300" height="170" />
-              <div className='flex flex-col justify-start'>
-                <h1 className='flex flex-col text-left text-9xl font-bold text-green-500 pl-8'>Om Raut</h1>
+              <img src="https://avatars.githubusercontent.com/u/33827410?s=400&u=d7fa33a6aba54a8748942939d48217d9ba0fcf84&v=4"  className="flex rounded-full " width="300" height="170" />
+              <div className='flex flex-col justify-start '>
+                <h1 className='flex flex-col text-left text-9xl font-bold text-green-500 pl-8 text-shadow-yellow'>Om Raut</h1>
+                
+                {/*  */}
                 <span className='text-sm text-gray-400 text-left text-2xl pl-10 pt-1'>@Elevate.ai</span>
               </div>
             </div>
