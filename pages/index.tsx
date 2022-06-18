@@ -19,6 +19,7 @@ const Home: NextPage = () => {
                 
                 {/*  */}
                 <span className='text-sm text-gray-400 text-left text-2xl pl-10 pt-1'>@Elevate.ai</span>
+                <span className='text-left pl-10 pt-2 text-white'>paragraph about introduction</span>
               </div>
             </div>
         </div>
