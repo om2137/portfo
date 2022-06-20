@@ -11,9 +11,9 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="flex w-full flex-1 flex-col justify-top pt-10 px-20 ">
-        <div className=''>
-          <div className='flex items-left '>
-          <div className='flex items-center justify-center w-100 pb-4 '>
+        <div>
+          <div className=' flex items-left ml-10'>
+          <div className='flex items-center justify-center w-200 pb-4 '>
               <img src="https://avatars.githubusercontent.com/u/33827410?s=400&u=d7fa33a6aba54a8748942939d48217d9ba0fcf84&v=4"  className="flex flex-col rounded-full ml-4" width="250" />
               <div className='flex flex-col justify-start mr-4'>
                 <span className='text-left text-6xl ml-6 font-bold text-green-500'>Om Raut</span>
@@ -25,10 +25,13 @@ const Home: NextPage = () => {
           </div>
           
           <div className='flex flex-col items-left text-4xl justify center w-100 pb-4 pt-6 '>
-            <span className='text-white font-bold pl-10 pb-5'>Projects</span>
-            <span className='text-white font-bold pl-10 pb-5'>Work Experience</span>
-            <span className='text-white font-bold pl-10 pb-5'>Skill</span>
-            <span className='text-white font-bold pl-10 pb-5'>NonTechnical</span>
+            <span className='text-green-500 font-bold ml-10 pb-2 '>Projects</span>
+            <p className='text-white text-xl ml-12 pb-5'>These are the projects i have made</p>
+            <span className='text-green-500 font-bold ml-10 pb-5 '>Work Experience</span>
+            <p className='text-white text-xl ml-12 pb-5'>internships and description</p>
+            <span className='text-green-500 font-bold ml-10 pb-5 '>Skill</span>
+            <p className='text-white text-xl ml-12 pb-5'>tech stack, devops, languages and non technical skills</p>
+            <span className='text-green-500 font-bold ml-10 pb-5 '>NonTechnical</span>
           </div>    
         </div>
         
