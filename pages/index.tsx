@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <main className="flex w-full flex-1 flex-col justify-top px-10 pt-10">
         <div>
             <div className='flex item-center'>
-              <img src="https://avatars.githubusercontent.com/u/33827410?s=400&u=d7fa33a6aba54a8748942939d48217d9ba0fcf84&v=4" className='flex flex-col rounded-full mx-auto mb-10 xsm:flex md:hidden' alt="" />
+              <img src="https://avatars.githubusercontent.com/u/33827410?s=400&u=d7fa33a6aba54a8748942939d48217d9ba0fcf84&v=4" className='flex flex-col rounded-full mx-auto mb-10 xsm:flex md:hidden md:object-scale-down' alt="" />
             </div>
             <div className='flex items-center justify-center  pb-4 '>
                 <img src="https://avatars.githubusercontent.com/u/33827410?s=400&u=d7fa33a6aba54a8748942939d48217d9ba0fcf84&v=4"  className="flex flex-col rounded-full ml-auto  xsm:hidden md:flex" width="250" />
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
             <p className='text-white text-xl ml-12 pb-5'>internships and description</p>
             <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Skill</span>
             <p className='text-white text-2xl ml-12 pb-5'>tech stack, devops, languages and non technical skills</p>
-            <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>NonTechnical</span>
+            <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Blogs</span>
             
           </div>    
         </div>
