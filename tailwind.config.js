@@ -11,7 +11,9 @@ module.exports = {
         'h1': '0 0 3px rgba(0, 0, 0, .8), 0 0 5px rgba(0, 0, 0, .9)',
       },
     extend: {
-      
+      blur: {
+        xs: '1px',
+      }
     },
     screens: {
       'xsm': '140px',
@@ -30,6 +32,7 @@ module.exports = {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
     }
+
   },
   plugins: [
     require('tailwindcss-textshadow')
