@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import MediaCard from '../components/cards';
 
 const Home: NextPage = () => {
   return (
@@ -35,8 +36,9 @@ const Home: NextPage = () => {
                 </div>
             </div>
           
-          <div className='flex flex-col items-left text-4xl justify-center w-100 pb-4 pt-6 '>
+          <div className='flex w-full flex-1 flex-col items-left text-4xl justify-center w-100 pb-4 pt-6 '>
             <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Projects</span>
+            
             <p className='text-white text-xl ml-12 pb-5'>These are the projects i have made</p>
             <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 text-center'>Work<br className='sm:hidden' /> Experience</span>
             <p className='text-white text-xl ml-12 pb-5'>internships and description</p>
@@ -44,7 +46,8 @@ const Home: NextPage = () => {
             <p className='text-white text-2xl ml-12 pb-5'>tech stack, devops, languages and non technical skills</p>
             <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Blogs</span>
             
-          </div>    
+          </div>
+          <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1654602293741%2FXEtW0r2im.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' title='Web 3' description='description'/>    
         </div>
         
 
