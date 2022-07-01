@@ -42,6 +42,9 @@ const Home: NextPage = () => {
             
           
           <div className='flex w-full flex-1 flex-col items-left text-4xl justify-center w-100 pb-4 pt-6 '>
+            <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Introduction</span>
+              <p className='text-white text-2xl ml-12 pb-5'>introduction paragraph Professional information.</p>
+
             <span className='text-green-500 font-bold mx-auto sm:ml-10 pb-2'>Projects</span>
             <p className='text-white text-xl ml-12 py-5'>These are the projects I have made.</p>
             <div className='flex content-center justify-center pb-10 sm:hidden'>
@@ -114,6 +117,7 @@ const Home: NextPage = () => {
             <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Skill</span>
             <p className='text-white text-2xl ml-12 pb-5'>tech stack, devops, languages and non technical skills</p>
             <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Blogs</span>
+            <p className='text-white text-2xl ml-12 pb-5'>blogs and newsletter</p>
 
           </div>     
                 
