@@ -28,6 +28,8 @@ interface Props {
   image: string;
   title: string;
   description: string;
+  GHlink: string;
+  blog: string;
 }
 const imgStyle = {
   minWidth: '60px',
@@ -46,7 +48,7 @@ const ActionStyle={
   display: 'flex',
 }
 
-export default function MediaCard( {image, title, description}: Props ) {
+export default function MediaCard( {image, title, description, GHlink, blog}: Props ) {
   return (
     <Card style={cardStyle} >
       <CardMedia
@@ -64,8 +66,8 @@ export default function MediaCard( {image, title, description}: Props ) {
       </CardContent>
       <CardActions style={ActionStyle} >
         <ThemeProvider theme={theme}>
-          <Button size="small" color='success'>Github</Button>
-          <Button size="small" color='warning'>Blog</Button> 
+          <Button size="small" color='success' href={GHlink} target="_blank">Github</Button>
+          <Button size="small" color='warning' href={blog} target="_blank">Blog</Button> 
         </ThemeProvider>
       </CardActions>
     </Card>
