@@ -3,6 +3,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import MediaCard from '../components/cards';
+import Navbar from '../components/Navbar';
 import Grid from '@mui/material/Grid';
 import { CenterFocusStrong, FormatAlignJustify } from '@mui/icons-material';
 
@@ -12,39 +13,11 @@ const Home: NextPage = () => {
     <div className="flex  min-h-screen flex-col items-center justify-center  dark:bg-slate-900 ">
       <Head>
         <title>Om Raut</title>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
         <link rel="icon" href="/dev.png" />
       </Head>
-
-      <div className="flex w-full flex-1 flex-col justify-top">
-          <nav className="flex items-center rounded-b-lg justify-between flex-wrap p-6 bg-slate-800 drop-shadow">
-            <div className="flex items-center flex-shrink-0 text-white mr-6">
-              <a className=" inline-block border rounded py-2 px-4 text-white font-semibold">Home</a>
-            </div>
-            <div className="block lg:hidden">
-              <button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-                <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-              </button>
-            </div>
-            <div className="w-full block flex- lg:flex lg:items-center lg:w-auto">
-              <div className="text-sm lg:flex-">
-                <a className="inline-block border text-sm px-4 py-2 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 ">
-                  Projects
-                </a>
-                <a className="inline-block border text-sm px-4 py-2 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 ">
-                  Examples
-                </a>
-                <a className="inline-block border text-sm px-4 py-2 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 ">
-                  Blog
-                </a>
-              </div>
-              <div>
-                <a className="inline-block border text-sm px-4 py-2 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 ">Resume</a>
-              </div>
-            </div>
-          </nav>
-      </div>
-
+      {/* navbar component */}
+      <Navbar/>
+      {/* main page */}
       <main className="flex w-full flex-1 flex-col justify-top px-10 pt-10">
         <div>
             <div className='flex items-center justify-center  pb-4'>
