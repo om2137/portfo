@@ -16,9 +16,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/dev.png" />
       </Head>
       {/* navbar component */}
-      <header>
-        <Navbar/>
-      </header>
+      <Navbar/>
+      
       
       {/* main page */}
       <main className="flex w-full flex-1 flex-col justify-top px-10 pt-10">
@@ -49,8 +48,8 @@ const Home: NextPage = () => {
                 </div>
             </div>
             
-          
-          <div className='flex w-full flex-1 flex-col xsm:text-center sm:text-left items-left text-4xl justify-center w-100 pb-4 pt-6 xl:ml-10 md:pr-10'>
+          <div className=''></div>
+          <div className='flex w-full flex-1 flex-col xsm:text-center md:text-left items-left text-4xl justify-center w-100 pb-4 pt-6 3xl:px-40 xl:ml-10 md:pr-10'>
             <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Introduction</span>
               <p className='text-white text-2xl sm:ml-12 pb-5'>introduction paragraph Professional information.</p>
 
@@ -175,18 +174,9 @@ const Home: NextPage = () => {
                     />
                   </Grid>
                   <Grid item xs={12} sm={6} md={3} xl={2}>
-                    <MediaCard image='/card.jpg' 
+                    <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1657304559926%2FE4ZFRel9v.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' 
                       title='Card'
                       description='naruto' 
-                      GHlink=''
-                      blog=''
-                    />
-                  </Grid>
-                  <Grid item xs={12} sm={6} md={3} xl={2}>
-                    <MediaCard 
-                      image='/goku.jpg'
-                      title='Goku'
-                      description='description' 
                       GHlink=''
                       blog=''
                     />
@@ -218,18 +208,9 @@ const Home: NextPage = () => {
                     />
                   </Grid>
                   <Grid item xs={12} sm={6} md={3} xl={2}>
-                    <MediaCard image='/card.jpg' 
+                    <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1657304559926%2FE4ZFRel9v.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' 
                       title='Card'
                       description='naruto' 
-                      GHlink=''
-                      blog=''
-                    />
-                  </Grid>
-                  <Grid item xs={12} sm={6} md={3} xl={2}>
-                    <MediaCard 
-                      image='/goku.jpg'
-                      title='Goku'
-                      description='description'
                       GHlink=''
                       blog=''
                     />
