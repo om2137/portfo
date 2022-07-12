@@ -38,13 +38,13 @@ export default function Navbar() {
 
   return (
     <div className="flex w-full flex-1 flex-col justify-top">
-          <nav className="flex items-center justify-between rounded-b-lg border-b border-green-500 flex-between p-6 xl:p-10 bg-slate-800 ">
+          <nav className="flex items-center justify-between rounded-b-lg border-b border-green-500 flex-between p-6 xl:p-10 bg-slate-800 3xl:px-20">
 
             <div className="flex items-center flex-shrink-0 text-white mr-6">
               <a className=" inline-block border border-green-500 rounded py-2 px-4 text-white font-semibold">Home</a>
             </div>
 
-            <div className='hidden md:flex'>
+            <div className='hidden md:flex '>
 
               <div className="w-full block flex- md:flex lg:items-center hidden lg:w-auto " id='menu'>
                 <div className="text-sm lg:flex-">

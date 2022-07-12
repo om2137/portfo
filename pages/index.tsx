@@ -47,10 +47,35 @@ const Home: NextPage = () => {
                   <span className='text-left text-xl md:text-3xl ml-7 pt-2 text-gray-300'>Hi, my name is Om Raut. <br /> I’m a software engineer from Navi Mumbai, India. <br/>I develope features and fix bugs in software.</span>  
                 </div>
             </div>
+            <div className='justify-center text-white hidden md:flex '>
+              <div className='flex text-15xl justify-center'>
+                <div>
+                  <span className='font-bold'>S</span>
+                </div>
+                <div>
+                  <span className='font-bold'>K</span>
+                </div>
+                <div>
+                  <span className='font-bold'>I</span>
+                </div>
+                <div>
+                  <span className='font-bold'>L</span>
+                </div>
+                <div>
+                  <span className='font-bold'>L</span>
+                </div>
+                <div>
+                  <span className='font-bold'>S</span>
+                </div>
+              </div>
+              
+              <div className='flex text-white text-center text-2xl font-bold'>
+                <a href="text-3xl" style={{ writingMode: 'vertical-rl' }}>HELP</a>
+              </div>
+            </div>
             
-          <div className=''></div>
           <div className='flex w-full flex-1 flex-col xsm:text-center md:text-left items-left text-4xl justify-center w-100 pb-4 pt-6 3xl:px-40 xl:ml-10 md:pr-10'>
-            <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Introduction</span>
+            <span className='text-full text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Introduction</span>
               <p className='text-white text-2xl sm:ml-12 pb-5'>introduction paragraph Professional information.</p>
 
             <span className='text-green-500 font-bold mx-auto sm:ml-10 pb-5' id='project'>Projects</span>
