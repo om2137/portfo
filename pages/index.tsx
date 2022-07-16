@@ -23,7 +23,7 @@ const Home: NextPage = () => {
       {/* main page */}
       <main className="flex w-full flex-1 flex-col justify-top px-10 pt-10">
         <div>
-            <div className='flex items-center justify-center  pb-4'>
+            <div className='flex items-center justify-center  py-4 md:hidden '>
               <div className=' relative mb-4'>
                   <div className="absolute inset-0 bg-white rounded-full blur-md"></div>
                   <img src="https://avatars.githubusercontent.com/u/33827410?s=400&u=d7fa33a6aba54a8748942939d48217d9ba0fcf84&v=4" 
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
                    width="250" />
               </div>
             </div>
-            <div className='flex items-center justify-center  pb-8'>
+            <div className='flex items-center justify-center  py-8'>
                 <div className='relative ml-auto '>
                   <div className="absolute inset-x-1 inset-y-1 bg-white rounded-full blur-md xsm:hidden md:flex"></div>
                     <img src="https://avatars.githubusercontent.com/u/33827410?s=400&u=d7fa33a6aba54a8748942939d48217d9ba0fcf84&v=4" 
@@ -41,124 +41,133 @@ const Home: NextPage = () => {
                 
                 <div className='flex flex-col justify-start mr-auto md:ml-10'>
                   <div className='relative xsm:text-center md:text-left'>
-                    <span className="absolute inset-x-1 inset-y-1 text-center text-6xl sm:text-8xl text-left md:text-left md:ml-6 font-bold text-yellow-500 blur-xs">Om Raut </span>
-                    <span className='relative text-6xl sm:text-8xl md:text-left md:ml-6 font-bold text-green-500 '>Om Raut</span>
+                    <span className="absolute inset-x-1 inset-y-1 text-center text-6xl sm:text-9xl text-left md:text-left  font-bold text-yellow-500 blur-xs">Om Raut </span>
+                    <span className='relative text-6xl sm:text-9xl md:text-left font-bold text-green-500 '>Om Raut</span>
                   </div>
                   <span className='text-sm text-white text-left  ml-7 pt-4'>github, twitter, linkedin, hashnode, gmail</span> {/* all socials */}
                   <span className='text-left text-xl md:text-3xl ml-7 pt-2 text-gray-300'>Hi, my name is Om Raut. <br /> I’m a software engineer from Navi Mumbai, India. <br/>I develope features and fix bugs in software.</span>  
                 </div>
             </div>
-            <div className='justify-center text-white hidden md:flex '>
-              <div className='flex text-15xl justify-center'>
-                <div>
-                  <span className='font-bold'>S</span>
-                </div>
-                <div>
-                  <span className='font-bold'>K</span>
-                </div>
-                <div>
-                  <span className='font-bold'>I</span>
-                </div>
-                <div>
-                  <span className='font-bold'>L</span>
-                </div>
-                <div>
-                  <span className='font-bold'>L</span>
-                </div>
-                <div>
-                  <span className='font-bold'>S</span>
-                </div>
-              </div>
-              
-              <div className='flex text-white text-center text-2xl font-bold'>
-                <a href="text-3xl" style={{ writingMode: 'vertical-rl' }}>HELP</a>
-              </div>
-            </div>
             
-          <div className='flex w-full flex-1 flex-col xsm:text-center md:text-left items-left text-4xl justify-center w-100 pb-4 pt-6 3xl:px-40 xl:ml-10 md:pr-10'>
-            <span className='text-full text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Introduction</span>
-              <p className='text-white text-2xl sm:ml-12 pb-5'>introduction paragraph Professional information.</p>
-              
-            <Projects/>
-            
-            <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 text-center'>Work<br className='sm:hidden' /> Experience</span>
-            <p className='text-white text-xl sm:ml-12 pb-5'>internships and description</p>
-            <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Skill</span>
-            <p className='text-white text-2xl sm:ml-12 pb-5'>tech stack, devops, languages and non technical skills</p>
-            <span id="blog" className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Blogs</span>
-            <p className='text-white text-2xl sm:ml-12 pb-5'>blogs and newsletter</p>
-            <div className='flex content-center justify-center pb-10 sm:hidden'>
-              <Grid
-                xs
-                container 
-                spacing="40px"
-                justifyContent="center" 
-                alignItems="center"
+                 
                 
-              >
-                  <Grid item xs={12} sm={6} md={3} xl={2} >
-                    <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1654602293741%2FXEtW0r2im.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
-                      title='Thoughts' 
-                      description='description' 
-                      GHlink='https://github.com/om2137/Thoughts'
-                      blog='https://easydev.tech/thoughts-decentralized-twitter-like-app-web3'
-                      />
-                  </Grid>
-                  <Grid item xs={12} sm={6} md={3} xl={2}>
-                    <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655202890460%2FaUgxyVYls.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
-                    title='DEV' 
-                    description='description'
-                    GHlink=''
-                    blog=''
-                    />
-                  </Grid>
-                  <Grid item xs={12} sm={6} md={3} xl={2}>
-                    <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1657304559926%2FE4ZFRel9v.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' 
-                      title='Card'
-                      description='naruto' 
-                      GHlink=''
-                      blog=''
-                    />
-                  </Grid>
-              </Grid>
-            </div>
-            
-            <div className='flex content-center justify-center pb-10 xsm:hidden sm:flex'>
-              <Grid
-                container 
-                spacing="40px" 
-                marginLeft="10px"
-                marginRight="20px"
-              >
-                  <Grid item xs={12} sm={6} md={3} xl={2} >
-                    <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1654602293741%2FXEtW0r2im.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
-                      title='Thoughts' 
-                      description='description' 
-                      GHlink='https://github.com/om2137/Thoughts'
-                      blog='https://easydev.tech/thoughts-decentralized-twitter-like-app-web3'
-                    />
-                  </Grid>
-                  <Grid item xs={12} sm={6} md={3} xl={2}>
-                    <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655202890460%2FaUgxyVYls.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
+        </div>
+      </main>
+      <main className="flex w-full flex-1 flex-col justify-top px-5 md:px-10 ">
+      <Projects/>
+      </main>
+      {/* All sub divisions */}
+      <main className="flex w-full flex-1 flex-col justify-top px-10 ">
+        test
+        <div>
+          <div className='flex w-full flex-1 flex-col xsm:text-center md:text-left items-left text-4xl justify-center w-100 pb-4 pt-6 3xl:px-40 xl:ml-10 md:pr-10'>
+              <span className='text-full text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Introduction</span>
+                <p className='text-white text-2xl sm:ml-12 pb-5'>introduction paragraph Professional information.</p>
+                
+              
+              
+              <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 text-center'>Work<br className='sm:hidden' /> Experience</span>
+              <p className='text-white text-xl sm:ml-12 pb-5'>internships and description</p>
+              <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Skill</span>
+              <div className='justify-center text-white hidden xl:flex '>
+                <div className='flex text-15xl justify-center'>
+                  <div>
+                    <span className='font-bold'>S</span>
+                  </div>
+                  <div>
+                    <span className='font-bold'>K</span>
+                  </div>
+                  <div>
+                    <span className='font-bold'>I</span>
+                  </div>
+                  <div>
+                    <span className='font-bold'>L</span>
+                  </div>
+                  <div>
+                    <span className='font-bold'>L</span>
+                  </div>
+                  <div>
+                    <span className='font-bold'>S</span>
+                  </div>
+                </div>
+                
+                <div className='flex text-white text-center text-2xl font-bold'>
+                  <a href="text-3xl" style={{ writingMode: 'vertical-rl' }}>HELP</a>
+                </div>
+              </div>
+              <p className='text-white text-2xl sm:ml-12 pb-5'>tech stack, devops, languages and non technical skills</p>
+              <span id="blog" className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Blogs</span>
+              <p className='text-white text-2xl sm:ml-12 pb-5'>blogs and newsletter</p>
+              <div className='flex content-center justify-center pb-10 sm:hidden'>
+                <Grid
+                  xs
+                  container 
+                  spacing="40px"
+                  justifyContent="center" 
+                  alignItems="center"
+                  
+                >
+                    <Grid item xs={12} sm={6} md={3} xl={2} >
+                      <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1654602293741%2FXEtW0r2im.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
+                        title='Thoughts' 
+                        description='description' 
+                        GHlink='https://github.com/om2137/Thoughts'
+                        blog='https://easydev.tech/thoughts-decentralized-twitter-like-app-web3'
+                        />
+                    </Grid>
+                    <Grid item xs={12} sm={6} md={3} xl={2}>
+                      <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655202890460%2FaUgxyVYls.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
                       title='DEV' 
                       description='description'
                       GHlink=''
                       blog=''
-                    />
-                  </Grid>
-                  <Grid item xs={12} sm={6} md={3} xl={2}>
-                    <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1657304559926%2FE4ZFRel9v.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' 
-                      title='Card'
-                      description='naruto' 
-                      GHlink=''
-                      blog=''
-                    />
-                  </Grid>
-              </Grid>
-            </div>
-
-          </div>     
-                
+                      />
+                    </Grid>
+                    <Grid item xs={12} sm={6} md={3} xl={2}>
+                      <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1657304559926%2FE4ZFRel9v.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' 
+                        title='Card'
+                        description='naruto' 
+                        GHlink=''
+                        blog=''
+                      />
+                    </Grid>
+                </Grid>
+              </div>
+              
+              <div className='flex content-center justify-center pb-10 xsm:hidden sm:flex'>
+                <Grid
+                  container 
+                  spacing="40px" 
+                  marginLeft="10px"
+                  marginRight="20px"
+                >
+                    <Grid item xs={12} sm={6} md={3} xl={2} >
+                      <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1654602293741%2FXEtW0r2im.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
+                        title='Thoughts' 
+                        description='description' 
+                        GHlink='https://github.com/om2137/Thoughts'
+                        blog='https://easydev.tech/thoughts-decentralized-twitter-like-app-web3'
+                      />
+                    </Grid>
+                    <Grid item xs={12} sm={6} md={3} xl={2}>
+                      <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655202890460%2FaUgxyVYls.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
+                        title='DEV' 
+                        description='description'
+                        GHlink=''
+                        blog=''
+                      />
+                    </Grid>
+                    <Grid item xs={12} sm={6} md={3} xl={2}>
+                      <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1657304559926%2FE4ZFRel9v.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' 
+                        title='Card'
+                        description='naruto' 
+                        GHlink=''
+                        blog=''
+                      />
+                    </Grid>
+                </Grid>
+              </div>
+          </div>
         </div>
       </main>
 
