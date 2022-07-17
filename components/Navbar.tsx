@@ -97,9 +97,13 @@ export default function Navbar() {
                     'aria-labelledby': 'basic-button',
                   }}
                 >
-                  <StyledMenuItem onClick={handleClose} >Projects</StyledMenuItem>
+                  <StyledMenuItem onClick={handleClose} >
+                    <a href='#Projects'>Projects</a>
+                  </StyledMenuItem>
                   <StyledMenuItem onClick={handleClose}>Experience</StyledMenuItem>
-                  <StyledMenuItem onClick={handleClose}>Blogs</StyledMenuItem>
+                  <StyledMenuItem onClick={handleClose}>
+                  <a href='#blog'>Blog</a>
+                  </StyledMenuItem>
                   <StyledMenuItem onClick={handleClose}>Resume</StyledMenuItem>
                 </Menu>
               

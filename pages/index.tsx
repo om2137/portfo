@@ -6,7 +6,8 @@ import MediaCard from '../components/cards';
 import Navbar from '../components/Navbar';
 import Grid from '@mui/material/Grid';
 import { CenterFocusStrong, FormatAlignJustify } from '@mui/icons-material';
-import Projects from '../sections/Projects';
+import Projects from '../components/sections/Projects';
+import Skills from '../components/sections/Skills';
 
 const Home: NextPage = () => {
 
@@ -53,8 +54,11 @@ const Home: NextPage = () => {
                 
         </div>
       </main>
-      <main className="flex w-full flex-1 flex-col justify-top px-5 md:px-10 ">
+      <main id='Projects' className="flex w-full flex-1 flex-col justify-top px-5 md:px-10 ">
       <Projects/>
+      </main>
+      <main className="flex w-full flex-1 flex-col justify-top px-5 md:px-10 ">
+        {/* <Skills /> */}
       </main>
       {/* All sub divisions */}
       <main className="flex w-full flex-1 flex-col justify-top px-10 ">
