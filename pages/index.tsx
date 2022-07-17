@@ -6,7 +6,7 @@ import MediaCard from '../components/cards';
 import Navbar from '../components/Navbar';
 import Grid from '@mui/material/Grid';
 import { CenterFocusStrong, FormatAlignJustify } from '@mui/icons-material';
-import Projects from '../components/Projects';
+import Projects from '../sections/Projects';
 
 const Home: NextPage = () => {
 
@@ -58,7 +58,6 @@ const Home: NextPage = () => {
       </main>
       {/* All sub divisions */}
       <main className="flex w-full flex-1 flex-col justify-top px-10 ">
-        test
         <div>
           <div className='flex w-full flex-1 flex-col xsm:text-center md:text-left items-left text-4xl justify-center w-100 pb-4 pt-6 3xl:px-40 xl:ml-10 md:pr-10'>
               <span className='text-full text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Introduction</span>
@@ -69,32 +68,6 @@ const Home: NextPage = () => {
               <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 text-center'>Work<br className='sm:hidden' /> Experience</span>
               <p className='text-white text-xl sm:ml-12 pb-5'>internships and description</p>
               <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Skill</span>
-              <div className='justify-center text-white hidden xl:flex '>
-                <div className='flex text-15xl justify-center'>
-                  <div>
-                    <span className='font-bold'>S</span>
-                  </div>
-                  <div>
-                    <span className='font-bold'>K</span>
-                  </div>
-                  <div>
-                    <span className='font-bold'>I</span>
-                  </div>
-                  <div>
-                    <span className='font-bold'>L</span>
-                  </div>
-                  <div>
-                    <span className='font-bold'>L</span>
-                  </div>
-                  <div>
-                    <span className='font-bold'>S</span>
-                  </div>
-                </div>
-                
-                <div className='flex text-white text-center text-2xl font-bold'>
-                  <a href="text-3xl" style={{ writingMode: 'vertical-rl' }}>HELP</a>
-                </div>
-              </div>
               <p className='text-white text-2xl sm:ml-12 pb-5'>tech stack, devops, languages and non technical skills</p>
               <span id="blog" className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Blogs</span>
               <p className='text-white text-2xl sm:ml-12 pb-5'>blogs and newsletter</p>

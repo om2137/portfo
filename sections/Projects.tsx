@@ -6,7 +6,11 @@ export default function Projects() {
   return (
     <>
 
-        <header className=' flex item-center content-center justify-center text-green-500 font-bold md:pb-5 my-5'>
+        
+          
+        <div className='flex flex-col justify-center item-center mx-auto'>
+            
+            <header className=' flex item-center content-center justify-center text-green-500 font-bold md:pb-5 my-5'>
                 <div className='flex text-7xl md:text-10xl  lg:text-11xl 2xl:text-12xl  mx-auto '>
                     <div>
                         <span className='font-bold '>P</span>
@@ -35,9 +39,7 @@ export default function Projects() {
                 </div>
                 
             </header>
-          
-        <div className='flex flex-col justify-center item-center mx-auto'>
-            
+
             <div className='flex my-4'>
                 <div className='flex flex-col columns-2 w-80 md:w-96 text-xl text-white md:ml-20 p-5'>
                     <span className='flex font-bold text-2xl pb-2'>THOUGHTS</span>
@@ -48,7 +50,7 @@ export default function Projects() {
                         </p>
                     </div>         
                 </div>
-                <div className=' md:flex flex-col item-center justify-center ml-20 p-5'>
+                <div className=' md:flex flex-col item-center justify-center ml-20 p-5  hidden'>
                     <MediaCard 
                         image='/card.jpg' 
                         title='Card'
@@ -59,7 +61,7 @@ export default function Projects() {
                 </div>
             </div>  
             <div className=' mx-auto my-20'>
-                <div className='flex content-center justify-center pb-10 sm:hidden'>
+                <div className='flex content-center justify-center pb-4 sm:hidden'>
                     <Grid
                         xs
                         container 
@@ -98,7 +100,7 @@ export default function Projects() {
                     </Grid>
                 </div>
                     
-                <div className='flex item-center justify-center pb-10 xsm:hidden sm:flex mx-auto'>
+                <div className='flex item-center justify-center pb-4 xsm:hidden sm:flex mx-auto'>
                     <Grid
                         container 
                         spacing="40px" 
