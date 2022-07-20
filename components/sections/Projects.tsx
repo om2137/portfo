@@ -73,7 +73,7 @@ export default function Projects() {
                         </p>
                     </div>         
                 </div>
-                <div className=' md:flex flex-col item-center justify-center ml-20 p-5  hidden'>
+                <div className=' md:flex flex-col item-center justify-center ml:ml-20 p-5  hidden'>
                     <MediaCard 
                         image='/card.jpg' 
                         title='Card'
@@ -104,7 +104,8 @@ export default function Projects() {
                         blog=''
                     />
                 </div>
-            </div>    
+            </div>   
+             {/*  */}
             <div className=' mx-auto md:my-20'>
                 <div className='flex content-center justify-center pb-10 sm:hidden mx-5'>
                     <Grid

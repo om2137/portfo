@@ -8,6 +8,7 @@ import Grid from '@mui/material/Grid';
 import { CenterFocusStrong, FormatAlignJustify } from '@mui/icons-material';
 import Projects from '../components/sections/Projects';
 import Skills from '../components/sections/Skills';
+import Experience from '../components/sections/Experience';
 
 const Home: NextPage = () => {
 
@@ -42,8 +43,8 @@ const Home: NextPage = () => {
                 
                 <div className='flex flex-col justify-start mr-auto md:ml-10'>
                   <div className='relative xsm:text-center md:text-left'>
-                    <span className="absolute inset-x-1 inset-y-1 text-center text-6xl sm:text-9xl text-left md:text-left  font-bold text-yellow-500 blur-xs">Om Raut </span>
-                    <span className='relative text-6xl sm:text-9xl md:text-left font-bold text-green-500 '>Om Raut</span>
+                    <span className="absolute inset-x-1 inset-y-1 text-center text-6xl sm:text-8xl md:text-9.5xl text-left md:text-left  font-bold text-yellow-500 blur-xs">Om Raut </span>
+                    <span className='relative text-6xl sm:text-8xl md:text-9.5xl md:text-left font-bold text-green-500 '>Om Raut</span>
                   </div>
                   <span className='text-sm text-white text-left  ml-7 pt-4'>github, twitter, linkedin, hashnode, gmail</span> {/* all socials */}
                   <span className='text-left text-xl md:text-3xl ml-7 pt-2 text-gray-300'>Hi, my name is Om Raut. <br /> I’m a software engineer from Navi Mumbai, India. <br/>I develope features and fix bugs in software.</span>  
@@ -58,7 +59,10 @@ const Home: NextPage = () => {
       <Projects/>
       </main>
       <main className="flex w-full flex-1 flex-col justify-top px-5 md:px-10 ">
-        {/* <Skills /> */}
+        <Skills />
+      </main>
+      <main className="flex w-full flex-1 flex-col justify-top px-5 md:px-10 ">
+        <Experience />
       </main>
       {/* All sub divisions */}
       <main className="flex w-full flex-1 flex-col justify-top px-10 ">
@@ -69,10 +73,10 @@ const Home: NextPage = () => {
                 
               
               
-              <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 text-center'>Work<br className='sm:hidden' /> Experience</span>
+              {/* <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 text-center'>Work<br className='sm:hidden' /> Experience</span>
               <p className='text-white text-xl sm:ml-12 pb-5'>internships and description</p>
               <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Skill</span>
-              <p className='text-white text-2xl sm:ml-12 pb-5'>tech stack, devops, languages and non technical skills</p>
+              <p className='text-white text-2xl sm:ml-12 pb-5'>tech stack, devops, languages and non technical skills</p> */}
               <span id="blog" className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Blogs</span>
               <p className='text-white text-2xl sm:ml-12 pb-5'>blogs and newsletter</p>
               <div className='flex content-center justify-center pb-10 sm:hidden'>

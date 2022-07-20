@@ -12,7 +12,7 @@ export default function Projects() {
             
             <header className=' flex item-center content-center justify-center text-green-500 font-bold md:pb-5 my-5'>
                 
-                <div className='flex text-7xl  sm:text-10xl ml:text-11xl  mx-auto lg:hidden'>
+                <div className='flex text-7xl  sm:text-9.5xl ml:text-10.5xl  mx-auto lg:hidden'>
                     <div>
                         <span className='font-bold'>S</span>
                     </div>
