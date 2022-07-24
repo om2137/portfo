@@ -50,17 +50,25 @@ export default function Navbar() {
                 <div className="text-sm lg:flex-">
 
                   <a className="inline-block border text-sm px-6 py-3 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 "
-                      href="#project"
+                      href="#Projects"
                   >
                     Projects
                   </a>
+                  
+                  <a className="inline-block border text-sm px-6 py-3 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 "
+                    href='#Skills'
+                  >
+                    Skills
+                  </a>
 
-                  <a className="inline-block border text-sm px-6 py-3 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 ">
+                  <a className="inline-block border text-sm px-6 py-3 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 "
+                    href='#Experience'
+                  >
                     Experience
                   </a>
 
                   <a className="inline-block border text-sm px-6 py-3 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 "
-                      href="#blog"
+                      href="#Blog"
                   >
                     Blog
                   </a>

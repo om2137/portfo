@@ -62,7 +62,7 @@ export default function Projects() {
                     </div>
                 </div>
             </header>
-
+            {/* Thoughts */}
             <div className='hidden md:flex my-4 item-center justify-center '>
                 <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
                     <span className='flex font-bold text-2xl pb-2'>THOUGHTS</span>
@@ -104,7 +104,51 @@ export default function Projects() {
                         blog=''
                     />
                 </div>
-            </div>   
+            </div>  
+            {/* FaceRec */} 
+            <div className='hidden md:flex my-4 item-center justify-center '>
+                <div className=' md:flex flex-col item-center justify-center ml:mr-20 p-5  hidden'>
+                    <MediaCard 
+                        image='/goku.jpg' 
+                        title='Card'
+                        description='naruto' 
+                        GHlink=''
+                        blog=''
+                    />
+                </div>
+                <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
+                    <span className='flex font-bold text-2xl pb-2'>FaceRec</span>
+                    <div className=' mx-auto' >
+                        <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
+                            This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 
+                            The source code for this is available on GitHub on following link: github.com/om2137/Thoughts
+                        </p>
+                    </div>         
+                </div>                
+            </div>
+            <div className='md:hidden flex flex-col my-4 item-center justify-center '>
+                <div className='flex item-center justify-center mx-2 p-5 '>
+                    <MediaCard 
+                        image='/goku.jpg' 
+                        title='Card'
+                        description='naruto' 
+                        GHlink=''
+                        blog=''
+                    />
+                </div>
+                <div className='flex flex-col item-center justify-center  columns-2 w-80 md:w-96 text-xl text-white mx-auto p-5'>
+                    
+                    <span className='flex font-bold text-2xl pb-2 text-center mx-auto text-center sm:text-left'>FaceRec</span>
+                    <div className=' mx-auto text-center sm:text-left' >
+                        <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
+                            This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 
+                            The source code for this is available on GitHub on following link: github.com/om2137/Thoughts
+                        </p>
+                    </div>         
+                </div>
+                
+            </div>
+
              {/*  */}
             <div className=' mx-auto md:my-20'>
                 <div className='flex content-center justify-center pb-10 sm:hidden mx-5'>

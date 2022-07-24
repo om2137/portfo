@@ -58,10 +58,10 @@ const Home: NextPage = () => {
       <main id='Projects' className="flex w-full flex-1 flex-col justify-top px-5 md:px-10 ">
       <Projects/>
       </main>
-      <main className="flex w-full flex-1 flex-col justify-top px-5 md:px-10 ">
+      <main id='Skills' className="flex w-full flex-1 flex-col justify-top px-5 md:px-10 ">
         <Skills />
       </main>
-      <main className="flex w-full flex-1 flex-col justify-top px-5 md:px-10 ">
+      <main id='Experience' className="flex w-full flex-1 flex-col justify-top px-5 md:px-10 ">
         <Experience />
       </main>
       {/* All sub divisions */}
