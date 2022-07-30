@@ -9,6 +9,7 @@ import { CenterFocusStrong, FormatAlignJustify } from '@mui/icons-material';
 import Projects from '../components/sections/Projects';
 import Skills from '../components/sections/Skills';
 import Experience from '../components/sections/Experience';
+import Blogs from '../components/sections/Blogs';
 
 const Home: NextPage = () => {
 
@@ -21,8 +22,9 @@ const Home: NextPage = () => {
       {/* navbar component */}
       <Navbar/>
       
+      {/* All sub divisions */}
       
-      {/* main page */}
+      {/* intro page */}
       <main className="flex w-full flex-1 flex-col justify-top px-10 pt-10">
         <div>
             <div className='flex items-center justify-center  py-4 md:hidden '>
@@ -55,6 +57,16 @@ const Home: NextPage = () => {
                 
         </div>
       </main>
+      {/* intro */}
+      <main className="flex w-full flex-1 flex-col justify-top px-10 ">
+        <div>
+          <div className='flex w-full flex-1 flex-col xsm:text-center md:text-left items-left text-4xl justify-center w-100 pb-4 pt-6 3xl:px-40 xl:ml-10 md:pr-10'>
+              <span className='text-full text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Introduction</span>
+                <p className='text-white text-2xl sm:ml-12 pb-5'>introduction paragraph Professional information.</p>
+              
+          </div>
+        </div>
+      </main>
       <main id='Projects' className="flex w-full flex-1 flex-col justify-top px-5 md:px-10 ">
       <Projects/>
       </main>
@@ -64,93 +76,10 @@ const Home: NextPage = () => {
       <main id='Experience' className="flex w-full flex-1 flex-col justify-top px-5 md:px-10 ">
         <Experience />
       </main>
-      {/* All sub divisions */}
-      <main className="flex w-full flex-1 flex-col justify-top px-10 ">
-        <div>
-          <div className='flex w-full flex-1 flex-col xsm:text-center md:text-left items-left text-4xl justify-center w-100 pb-4 pt-6 3xl:px-40 xl:ml-10 md:pr-10'>
-              <span className='text-full text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Introduction</span>
-                <p className='text-white text-2xl sm:ml-12 pb-5'>introduction paragraph Professional information.</p>
-                
-              
-              
-              {/* <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 text-center'>Work<br className='sm:hidden' /> Experience</span>
-              <p className='text-white text-xl sm:ml-12 pb-5'>internships and description</p>
-              <span className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Skill</span>
-              <p className='text-white text-2xl sm:ml-12 pb-5'>tech stack, devops, languages and non technical skills</p> */}
-              <span id="blog" className='text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Blogs</span>
-              <p className='text-white text-2xl sm:ml-12 pb-5'>blogs and newsletter</p>
-              <div className='flex content-center justify-center pb-10 sm:hidden'>
-                <Grid
-                  xs
-                  container 
-                  spacing="40px"
-                  justifyContent="center" 
-                  alignItems="center"
-                  
-                >
-                    <Grid item xs={12} sm={6} md={3} xl={2} >
-                      <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1654602293741%2FXEtW0r2im.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
-                        title='Thoughts' 
-                        description='description' 
-                        GHlink='https://github.com/om2137/Thoughts'
-                        blog='https://easydev.tech/thoughts-decentralized-twitter-like-app-web3'
-                        />
-                    </Grid>
-                    <Grid item xs={12} sm={6} md={3} xl={2}>
-                      <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655202890460%2FaUgxyVYls.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
-                      title='DEV' 
-                      description='description'
-                      GHlink=''
-                      blog=''
-                      />
-                    </Grid>
-                    <Grid item xs={12} sm={6} md={3} xl={2}>
-                      <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1657304559926%2FE4ZFRel9v.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' 
-                        title='Card'
-                        description='naruto' 
-                        GHlink=''
-                        blog=''
-                      />
-                    </Grid>
-                </Grid>
-              </div>
-              
-              <div className='flex content-center justify-center pb-10 xsm:hidden sm:flex'>
-                <Grid
-                  container 
-                  spacing="40px" 
-                  marginLeft="10px"
-                  marginRight="20px"
-                >
-                    <Grid item xs={12} sm={6} md={3} xl={2} >
-                      <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1654602293741%2FXEtW0r2im.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
-                        title='Thoughts' 
-                        description='description' 
-                        GHlink='https://github.com/om2137/Thoughts'
-                        blog='https://easydev.tech/thoughts-decentralized-twitter-like-app-web3'
-                      />
-                    </Grid>
-                    <Grid item xs={12} sm={6} md={3} xl={2}>
-                      <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655202890460%2FaUgxyVYls.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
-                        title='DEV' 
-                        description='description'
-                        GHlink=''
-                        blog=''
-                      />
-                    </Grid>
-                    <Grid item xs={12} sm={6} md={3} xl={2}>
-                      <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1657304559926%2FE4ZFRel9v.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' 
-                        title='Card'
-                        description='naruto' 
-                        GHlink=''
-                        blog=''
-                      />
-                    </Grid>
-                </Grid>
-              </div>
-          </div>
-        </div>
+      <main>
+        <Blogs/>
       </main>
+      
 
       
     </div>
