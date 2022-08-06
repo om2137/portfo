@@ -64,7 +64,7 @@ export default function Projects() {
             </header>
             {/* Thoughts */}
             <div className='hidden md:flex my-4 item-center justify-center '>
-                <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
+                <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-[45rem] text-xl text-white  p-5'>
                     <span className='flex font-bold text-2xl pb-2'>THOUGHTS</span>
                     <div className=' mx-auto' >
                         <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
@@ -73,7 +73,7 @@ export default function Projects() {
                         </p>
                     </div>         
                 </div>
-                <div className=' md:flex flex-col item-center justify-center ml:ml-20 p-5  hidden'>
+                {/* <div className=' md:flex flex-col item-center justify-center ml:ml-20 p-5  hidden'>
                     <MediaCard 
                         image='/card.jpg' 
                         title='Card'
@@ -81,7 +81,7 @@ export default function Projects() {
                         GHlink=''
                         blog=''
                     />
-                </div>
+                </div> */}
             </div>
             <div className='md:hidden flex flex-col my-4 item-center justify-center '>
                 

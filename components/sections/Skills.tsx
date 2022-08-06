@@ -65,7 +65,7 @@ export default function Skills() {
                     <div className='hidden md:flex flex-col w-64 ml:ml-4 p-5'>
                         <span className='font-bold text-white text-4xl pb-2 mr-auto'>Language</span>
                     </div>
-                    <div className=' md:flex flex-col w-96 item-center justify-center text-white ml:ml-4 p-5 hidden '>
+                    <div className=' md:flex flex-col w-[32rem] item-center justify-center text-white ml:ml-4 p-5 hidden '>
                         <span className='flex font-semibold text-3xl pb-2 mr-8'>
                             Solidity, Java, Python, C, C++, C#, JavaScript, Typescript
                         </span>
@@ -77,7 +77,7 @@ export default function Skills() {
                             Web technologies
                         </span>
                     </div>
-                    <div className=' md:flex flex-col w-96 item-center justify-center text-white ml:ml-4 p-5 hidden '>
+                    <div className=' md:flex flex-col w-[32rem] item-center justify-center text-white ml:ml-4 p-5 hidden '>
                         <span className='flex font-semibold text-3xl pb-2 mr-8'>
                             HTML5, CSS3, Tailwind.css, Nextjs
                         </span>
@@ -89,7 +89,7 @@ export default function Skills() {
                             Database
                         </span>
                     </div>
-                    <div className=' md:flex flex-col w-96 item-center justify-center text-white ml:ml-4 p-5 hidden '>
+                    <div className=' md:flex flex-col w-[32rem] item-center justify-center text-white ml:ml-4 p-5 hidden '>
                         <span className='flex font-semibold text-3xl pb-2 mr-8'>
                         SQL, MySQL, PostgreSQL, MongoDB
                         </span>
@@ -101,7 +101,7 @@ export default function Skills() {
                             Platforms
                         </span>
                     </div>
-                    <div className=' md:flex flex-col w-96 item-center justify-center text-white ml:ml-4 p-5 hidden '>
+                    <div className=' md:flex flex-col w-[32rem] item-center justify-center text-white ml:ml-4 p-5 hidden '>
                         <span className='flex font-semibold text-3xl pb-2 mr-8'>
                         GIT, GitHub, Unity(GameEngine), Eclipse, Visual Studio code, .net
                         Adobe suite: Photoshop, PremierPro, AfterEffects, Illustrator, XD.
@@ -112,51 +112,50 @@ export default function Skills() {
 
             <div className='md:hidden flex flex-col my-4 item-center justify-center '>
                 
-                <div className='flex item-center justify-center mx-auto'>
-                    <div className='flex flex-col item-center justify-center columns-2 w-80 md:w-96 text-xl text-white  p-5'>
-                        <span className='flex align-center font-bold text-4xl pb-2 ml-auto'>
-                            Languages
-                        </span>
+                <div className='flex flex-col item-start justify-start mx-auto'>
+                    <div className='md:hidden flex flex-col text-center w-64 ml:ml-4 p-5'>
+                        <span className='font-bold text-white text-2xl pb-2 mr-auto'>Language</span>
                     </div>
-                    <div className=' md:flex flex-col item-center justify-center text-white ml:ml-4 p-5 hidden '>
-                        <span className='flex font-semibold text-3xl pb-2 mr-8'>
+                    <div className=' flex flex-col w-72 item-center justify-center text-white ml:ml-4 p-5  '>
+                        <span className='flex font-semibold text-xl pb-2 mr-8'>
                             Solidity, Java, Python, C, C++, C#, JavaScript, Typescript
                         </span>
                     </div>
                 </div>
-                <div className='flex item-center justify-center mx-auto'>
-                    <div className='flex flex-col item-center justify-center columns-2 w-80 md:w-96 text-xl text-white  p-5'>
-                        <span className='flex align-center font-bold text-4xl pb-2 ml-auto'>
-                           Web Technologies
+                <div className='flex flex-col item-center justify-center mx-auto'>
+                    <div className='md:hidden flex flex-col w-64 ml:ml-4 p-5'>
+                        <span className='font-bold text-white text-2xl pb-2 mr-auto'>
+                            Web technologies
                         </span>
                     </div>
-                    <div className=' md:flex flex-col item-center justify-center text-white ml:ml-4 p-5 hidden '>
-                        <span className='flex font-semibold text-3xl pb-2 mr-8'>
-                            Solidity, Java, Python, C, C++, C#, JavaScript, Typescript
+                    <div className=' flex flex-col w-72 item-center justify-center text-white ml:ml-4 p-5  '>
+                        <span className='flex font-semibold text-xl pb-2 mr-8'>
+                            HTML5, CSS3, Tailwind.css, Nextjs
                         </span>
                     </div>
                 </div>
-                <div className='flex item-center justify-center mx-auto'>
-                    <div className='flex flex-col item-center justify-center columns-2 w-80 md:w-96 text-xl text-white  p-5'>
-                        <span className='flex align-center font-bold text-4xl pb-2 ml-auto'>
+                <div className='flex flex-col item-center justify-center mx-auto'>
+                    <div className='md:hidden flex flex-col w-64 ml:ml-4 p-5'>
+                        <span className='font-bold text-white text-2xl pb-2 mr-auto'>
                             Database
                         </span>
                     </div>
-                    <div className=' md:flex flex-col item-center justify-center text-white ml:ml-4 p-5 hidden '>
-                        <span className='flex font-semibold text-3xl pb-2 mr-8'>
-                            Solidity, Java, Python, C, C++, C#, JavaScript, Typescript
+                    <div className=' flex flex-col w-72 item-center justify-center text-white ml:ml-4 p-5  '>
+                        <span className='flex font-semibold text-xl pb-2 mr-8'>
+                        SQL, MySQL, PostgreSQL, MongoDB
                         </span>
                     </div>
                 </div>
-                <div className='flex item-center justify-center mx-auto'>
-                    <div className='flex flex-col item-center justify-center columns-2 w-80 md:w-96 text-xl text-white  p-5'>
-                        <span className='flex align-center font-bold text-4xl pb-2 ml-auto'>
+                <div className='flex flex-col item-center justify-center mx-auto'>
+                    <div className='md:hidden flex flex-col w-64 ml:ml-4 p-5'>
+                        <span className='font-bold text-white text-2xl pb-2 mr-auto'>
                             Platforms
                         </span>
                     </div>
-                    <div className=' md:flex flex-col item-center justify-center text-white ml:ml-4 p-5 hidden '>
-                        <span className='flex font-semibold text-3xl pb-2 mr-8'>
-                            Solidity, Java, Python, C, C++, C#, JavaScript, Typescript
+                    <div className=' flex flex-col w-72 item-center justify-center text-white ml:ml-4 p-5  '>
+                        <span className='flex font-semibold text-xl pb-2 mr-8'>
+                        GIT, GitHub, Unity(GameEngine), Eclipse, Visual Studio code, .net
+                        Adobe suite: Photoshop, PremierPro, AfterEffects, Illustrator, XD.
                         </span>
                     </div>
                 </div>

@@ -75,8 +75,8 @@ export default function Experience() {
                 </div>
             </header>
 
-            <div className='hidden md:flex my-4 item-left justify-left  '>
-                <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white ml-60 p-5'>
+            <div className='hidden md:flex my-4 item-center justify-center '>
+                <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
                     <span className='flex font-bold text-2xl pb-2'>THOUGHTS</span>
                     <div className=' mx-auto' >
                         <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
@@ -85,8 +85,17 @@ export default function Experience() {
                         </p>
                     </div>         
                 </div>
+                <div className=' md:flex flex-col item-center justify-center ml:ml-20 p-5  hidden'>
+                    <MediaCard 
+                        image='/card.jpg' 
+                        title='Card'
+                        description='naruto' 
+                        GHlink=''
+                        blog=''
+                    />
+                </div>
             </div>
-            <div className='md:hidden flex flex-col my-4 item-left justify-center '>
+            <div className='md:hidden flex flex-col my-4 item-center justify-center '>
                 
                 <div className='flex flex-col item-center justify-center  columns-2 w-80 md:w-96 text-xl text-white mx-auto p-5'>
                     
@@ -98,7 +107,16 @@ export default function Experience() {
                         </p>
                     </div>         
                 </div>
-            </div> 
+                <div className='flex item-center justify-center mx-2 p-5 '>
+                    <MediaCard 
+                        image='/card.jpg' 
+                        title='Card'
+                        description='naruto' 
+                        GHlink=''
+                        blog=''
+                    />
+                </div>
+            </div>  
             
             
         </div>
