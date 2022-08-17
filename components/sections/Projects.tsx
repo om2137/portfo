@@ -2,6 +2,7 @@ import React from 'react'
 import Grid from '@mui/material/Grid';
 import MediaCard from '../cards';
 
+
 export default function Projects() {
   return (
     <>
@@ -9,7 +10,7 @@ export default function Projects() {
         <div className='flex flex-col justify-center item-center mx-auto'>
             
             <header className=' flex item-center content-center justify-center text-green-500 font-bold md:pb-5 my-5'>
-                <div className='flex text-7xl sm:text-9xl ml:text-9.5xl  mx-auto lg:hidden'>
+                <div className='flex text-7xl font-bluu sm:text-9xl ml:text-9.5xl  mx-auto lg:hidden'>
                     <div>
                         <span className='font-bold '>P</span>
                     </div>
@@ -35,7 +36,7 @@ export default function Projects() {
                         <a href="" style={{ writingMode: 'vertical-rl' }}>HELP</a>
                     </div>
                 </div>
-                <div className='lg:flex text-7xl  lg:text-10xl  xl:text-12xl  mx-auto hidden'>
+                <div className='lg:flex text-7xl font-bluu lg:text-10xl  xl:text-12xl  mx-auto hidden'>
                     <div>
                         <span className='font-bold'>P</span>
                     </div>
