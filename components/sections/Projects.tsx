@@ -35,9 +35,9 @@ export default function Projects() {
                         <a href="" style={{ writingMode: 'vertical-rl' }}>HELP</a>
                     </div>
                 </div>
-                <div className='lg:flex text-7xl lg:text-10xl  xl:text-12xl  mx-auto hidden'>
+                <div className='lg:flex text-7xl  lg:text-10xl  xl:text-12xl  mx-auto hidden'>
                     <div>
-                        <span className='font-bold '>P</span>
+                        <span className='font-bold'>P</span>
                     </div>
                     <div>
                         <span className='font-bold'>R</span>

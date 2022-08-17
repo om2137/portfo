@@ -50,7 +50,7 @@ export default function Blog() {
             </header>
           
           <div className=' mx-auto md:my-20'>
-                  <div className='flex content-center justify-center pb-10 sm:hidden mx-5'>
+                  <div className='flex flex-wrap content-center justify-center pb-10 sm:hidden mx-5'>
                       <Grid
                           xs
                           container 

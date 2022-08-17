@@ -61,7 +61,7 @@ const Home: NextPage = () => {
       <main className="flex w-full flex-1 flex-col justify-top px-10 ">
         <div>
           <div className='flex w-full flex-1 flex-col xsm:text-center md:text-left items-left text-4xl justify-center w-100 pb-4 pt-6 3xl:px-40 xl:ml-10 md:pr-10'>
-              <span className='text-full text-green-500 font-bold mx-auto sm:ml-10  pb-2 '>Introduction</span>
+              <span className='text-full text-green-500 font-bluu font-bold mx-auto sm:ml-10  pb-2 '>Introduction</span>
                 <p className='text-white text-2xl sm:ml-12 pb-5'>introduction paragraph Professional information.</p>
               
           </div>
