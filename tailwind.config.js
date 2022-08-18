@@ -13,6 +13,7 @@ module.exports = {
     extend: {
       fontFamily:{
         bluu: '"Bluu", serif',
+        bluureg: '"BluuReg", serif',
       },
       blur: {
         xs: "1px",

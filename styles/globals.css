@@ -5,6 +5,14 @@
 @layer base{
     @font-face {
         font-family: 'Bluu';
-        src: url('/fonts/BluuBold.woff2') format('woff2');
+        src: url('/fonts/BluuNext-Bold.woff2') format('woff2');
+        font-weight: bold;
+        font-display: swap;
+        font-style: normal;
+        font-family: 'BluuReg';
+        src: url('/fonts/BluuNext-Titling.woff2') format('woff2');
+        font-weight: normal;
+        font-display: swap;
+        font-style: normal;
     }
 }
