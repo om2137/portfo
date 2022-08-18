@@ -3,7 +3,7 @@ import Grid from '@mui/material/Grid';
 import MediaCard from '../cards';
 
 const txtStyle = {
-    transform: 'scale(1, 1)',
+    transform: 'scale(0.96, 1)',
   };
 
 export default function Skills() {
@@ -13,7 +13,7 @@ export default function Skills() {
             
             <header className=' flex item-center content-center justify-center text-green-500 font-bold md:pb-5 my-5'>
                 
-                <div className='flex text-7xl font-bluu sm:text-9.5xl ml:text-10.5xl  mx-auto lg:hidden'>
+                <div className='flex text-7xl font-bluureg sm:text-9.5xl ml:text-10.5xl  mx-auto lg:hidden'>
                     <div>
                         <span className='font-bold'>S</span>
                     </div>
@@ -36,9 +36,9 @@ export default function Skills() {
                         <a href="" style={{ writingMode: 'vertical-rl' }}>HELP</a>
                     </div>
                 </div>
-                <div className='lg:flex text-7xl font-bluu lg:text-11xl  xl:text-15xl  mx-auto hidden'>
-                    <h2 className='flex'>
-                        <div>
+                <div className='lg:flex text-7xl font-bluureg lg:text-11xl xl:text-15xl mx-auto hidden' >
+                    <h2 className='flex pr-20' style={txtStyle}>
+                        <div >
                             <span className='font-bold'>S</span>
                         </div>
                         <div>
@@ -56,7 +56,7 @@ export default function Skills() {
                         <div>
                             <span className='font-bold'>S</span>
                         </div>
-                        <div className='md:flex hidden text-white text-center text-lg md:text-2xl font-bold pl-10 2xl:pl-20'>
+                        <div className='md:flex hidden text-white text-start text-lg font-bluureg md:text-2xl pl-10  pt-14'>
                             <a href="" style={{ writingMode: 'vertical-rl' }}>HELP</a>
                         </div>
                     </h2>

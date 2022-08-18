@@ -38,36 +38,37 @@ export default function Navbar() {
 
   return (
     <div className="flex w-full flex-1 flex-col justify-top">
-          <nav className="flex items-center justify-between rounded-b-lg border-b border-green-500 flex-between p-6 xl:p-10 bg-slate-800 3xl:px-20">
+          <nav className="flex items-center justify-between rounded-b-lg border-b border-green-500 flex-between py-6 xl:py-8 bg-slate-800 xl:px-20">
 
-            <div className="flex items-center flex-shrink-0 text-white mr-6">
-              <a className=" inline-block border border-green-500 rounded py-2 px-4 text-white font-semibold">Home</a>
+            <div className="flex flex-col items-right flex-shrink-0 text-white mr-6 ml-10">
+              <a className=" inline-block rounded  text-white text-6xl font-bluureg">Om Raut</a>
+              {/* <span className='absolute inset-x-28 inset-y-8 text-lg text-green-400 font-bluureg pl-10'>Developer</span> */}
             </div>
 
             <div className='hidden md:flex '>
 
               <div className="w-full block flex- md:flex lg:items-center hidden lg:w-auto " id='menu'>
-                <div className="text-sm lg:flex-">
+                <div className="text-sm font-bluureg lg:flex-">
 
-                  <a className="inline-block border text-sm px-6 py-3 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 "
+                  <a className="inline-block text-2xl px-2 py-1 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 "
                       href="#Projects"
                   >
                     Projects
                   </a>
                   
-                  <a className="inline-block border text-sm px-6 py-3 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 "
+                  <a className="inline-block text-2xl px-2 py-1 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 "
                     href='#Skills'
                   >
                     Skills
                   </a>
 
-                  <a className="inline-block border text-sm px-6 py-3 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 "
+                  <a className="inline-block text-2xl px-2 py-1 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 "
                     href='#Experience'
                   >
                     Experience
                   </a>
 
-                  <a className="inline-block border text-sm px-6 py-3 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 "
+                  <a className="inline-block text-2xl px-2 py-1 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 "
                       href="#Blog"
                   >
                     Blog
@@ -75,7 +76,7 @@ export default function Navbar() {
 
                 </div>
                 <div>
-                  <a className="inline-block border text-sm px-6 py-3 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 ">Resume</a>
+                  <a className="inline-block text-2xl font-bluureg px-2 py-1 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 ">Resume</a>
                 </div>
               </div>
             </div>

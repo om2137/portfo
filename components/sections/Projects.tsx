@@ -10,7 +10,7 @@ export default function Projects() {
         <div className='flex flex-col justify-center item-center mx-auto'>
             
             <header className=' flex item-center content-center justify-center text-green-500 font-bold md:pb-5 my-5'>
-                <div className='flex text-7xl font-bluu sm:text-9xl ml:text-9.5xl  mx-auto lg:hidden'>
+                <div className='flex text-7xl font-bluureg sm:text-9xl ml:text-9.5xl  mx-auto lg:hidden'>
                     <div>
                         <span className='font-bold '>P</span>
                     </div>
@@ -36,7 +36,7 @@ export default function Projects() {
                         <a href="" style={{ writingMode: 'vertical-rl' }}>HELP</a>
                     </div>
                 </div>
-                <div className='lg:flex text-7xl font-bluu lg:text-10xl  xl:text-12xl  mx-auto hidden'>
+                <div className='lg:flex text-7xl font-bluureg lg:text-10xl  xl:text-12xl  mx-auto hidden'>
                     <div>
                         <span className='font-bold'>P</span>
                     </div>
@@ -65,16 +65,16 @@ export default function Projects() {
             </header>
             {/* Thoughts */}
             <div className='hidden md:flex my-4 item-center justify-center '>
-                <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-[45rem] text-xl text-white  p-5'>
+                <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
                     <span className='flex font-bold text-2xl pb-2'>THOUGHTS</span>
-                    <div className=' mx-auto' >
+                    <div className=' mx-auto ' >
                         <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
                             This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 
                             The source code for this is available on GitHub on following link: github.com/om2137/Thoughts
                         </p>
                     </div>         
                 </div>
-                {/* <div className=' md:flex flex-col item-center justify-center ml:ml-20 p-5  hidden'>
+                <div className=' md:flex flex-col item-center justify-center ml:ml-20 p-5  hidden'>
                     <MediaCard 
                         image='/card.jpg' 
                         title='Card'
@@ -82,7 +82,7 @@ export default function Projects() {
                         GHlink=''
                         blog=''
                     />
-                </div> */}
+                </div>
             </div>
             <div className='md:hidden flex flex-col my-4 item-center justify-center '>
                 

@@ -45,11 +45,11 @@ const Home: NextPage = () => {
                 
                 <div className='flex flex-col justify-start mr-auto md:ml-10'>
                   <div className='relative xsm:text-center md:text-left'>
-                    <span className="absolute inset-x-1 inset-y-1 text-center text-6xl sm:text-8xl md:text-9.5xl text-left md:text-left  font-bold text-yellow-500 blur-xs">Om Raut </span>
-                    <span className='relative text-6xl sm:text-8xl md:text-9.5xl md:text-left font-bold text-green-500 '>Om Raut</span>
+                    <span className="absolute inset-x-0.5 inset-y-0.5 text-center text-6xl font-bluureg sm:text-8xl md:text-9.5xl text-left md:text-left  font-bold text-yellow-500">Om Raut </span>
+                    <span className='relative text-6xl font-bluureg sm:text-8xl md:text-9.5xl md:text-left font-bold text-green-500 '>Om Raut</span>
                   </div>
                   <span className='text-sm text-white text-left  ml-7 pt-4'>github, twitter, linkedin, hashnode, gmail</span> {/* all socials */}
-                  <span className='text-left text-xl md:text-3xl ml-7 pt-2 text-gray-300'>Hi, my name is Om Raut. <br /> I’m a software engineer from Navi Mumbai, India. <br/>I develope features and fix bugs in software.</span>  
+                  <span className='text-left text-lg md:text-3xl ml-7 pt-2 text-gray-300'>Hi, my name is Om Raut. <br /> I’m a software engineer from Navi Mumbai, India. <br/>I develope features and fix bugs in software.</span>  
                 </div>
             </div>
             
