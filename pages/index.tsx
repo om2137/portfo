@@ -14,7 +14,7 @@ import Blogs from '../components/sections/Blogs';
 const Home: NextPage = () => {
 
   return (
-    <div className="flex  min-h-screen flex-col items-center justify-center  dark:bg-slate-900 ">
+    <div className="flex  min-h-screen flex-col items-center justify-center bg-slate-900 ">
       <Head>
         <title>Om Raut</title>
         <link rel="icon" href="/dev.png" />
