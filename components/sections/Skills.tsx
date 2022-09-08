@@ -13,7 +13,7 @@ export default function Skills() {
             
             <header className=' flex item-center content-center justify-center text-green-500 font-bold md:pb-5 my-5'>
                 
-                <div className='flex text-7xl font-bluureg sm:text-9.5xl ml:text-10.5xl  mx-auto lg:hidden'>
+                <div className='flex text-8.5xl font-bluureg sm:text-9.5xl ml:text-10.5xl  mx-auto lg:hidden'>
                     <div>
                         <span className='font-bold'>S</span>
                     </div>
@@ -64,48 +64,48 @@ export default function Skills() {
                 </div>
             </header>
 
-            <div className='hidden md:flex flex-col my-4 item-start justify-center '>
+            <div className='hidden md:flex flex-col my-4 item-start justify-center px-auto'>
                 <div className='flex item-start justify-start mx-auto'>
-                    <div className='hidden md:flex flex-col w-64 ml:ml-4 p-5'>
+                    <div className='hidden md:flex flex-col w-56 ml:w-64 ml:ml-4 p-5'>
                         <span className='font-bold text-white text-4xl pb-2 mr-auto'>Language</span>
                     </div>
-                    <div className=' md:flex flex-col w-[32rem] item-center justify-center text-white ml:ml-4 p-5 hidden '>
-                        <span className='flex font-semibold text-3xl pb-2 mr-8'>
+                    <div className=' md:flex flex-col w-[22rem] ml:w-[28rem] item-center justify-center text-white ml:ml-4 p-5 hidden '>
+                        <span className='flex font-semibold text-3xl ml:text-3xl pb-2 mr-8'>
                             Solidity, Java, Python, C, C++, C#, JavaScript, Typescript
                         </span>
                     </div>
                 </div>
                 <div className='flex item-center justify-center mx-auto'>
-                    <div className='hidden md:flex flex-col w-64 ml:ml-4 p-5'>
+                    <div className='hidden md:flex flex-col w-56 ml:w-64 ml:ml-4 p-5'>
                         <span className='font-bold text-white text-4xl pb-2 mr-auto'>
                             Web technologies
                         </span>
                     </div>
-                    <div className=' md:flex flex-col w-[32rem] item-center justify-center text-white ml:ml-4 p-5 hidden '>
+                    <div className=' md:flex flex-col w-[22rem] ml:w-[28rem] item-center justify-center text-white ml:ml-4 p-5 hidden '>
                         <span className='flex font-semibold text-3xl pb-2 mr-8'>
                             HTML5, CSS3, Tailwind.css, Nextjs
                         </span>
                     </div>
                 </div>
                 <div className='flex item-center justify-center mx-auto'>
-                    <div className='hidden md:flex flex-col w-64 ml:ml-4 p-5'>
+                    <div className='hidden md:flex flex-col w-56 ml:w-64 ml:ml-4 p-5'>
                         <span className='font-bold text-white text-4xl pb-2 mr-auto'>
                             Database
                         </span>
                     </div>
-                    <div className=' md:flex flex-col w-[32rem] item-center justify-center text-white ml:ml-4 p-5 hidden '>
+                    <div className=' md:flex flex-col w-[22rem] ml:w-[28rem] item-center justify-center text-white ml:ml-4 p-5 hidden '>
                         <span className='flex font-semibold text-3xl pb-2 mr-8'>
                         SQL, MySQL, PostgreSQL, MongoDB
                         </span>
                     </div>
                 </div>
                 <div className='flex item-center justify-center mx-auto'>
-                    <div className='hidden md:flex flex-col w-64 ml:ml-4 p-5'>
+                    <div className='hidden md:flex flex-col w-56 ml:w-64 ml:ml-4 p-5'>
                         <span className='font-bold text-white text-4xl pb-2 mr-auto'>
                             Platforms
                         </span>
                     </div>
-                    <div className=' md:flex flex-col w-[32rem] item-center justify-center text-white ml:ml-4 p-5 hidden '>
+                    <div className=' md:flex flex-col w-[22rem] ml:w-[28rem] item-center justify-center text-white ml:ml-4 p-5 hidden '>
                         <span className='flex font-semibold text-3xl pb-2 mr-8'>
                         GIT, GitHub, Unity(GameEngine), Eclipse, Visual Studio code, .net
                         Adobe suite: Photoshop, PremierPro, AfterEffects, Illustrator, XD.
@@ -114,13 +114,13 @@ export default function Skills() {
                 </div>
             </div>
 
-            <div className='md:hidden flex flex-col my-4 item-center justify-center '>
+            <div className='md:hidden flex flex-col my-4 item-center justify-center text-center'>
                 
-                <div className='flex flex-col item-start justify-start mx-auto'>
+                <div className='flex flex-col item-center justify-center mx-auto'>
                     <div className='md:hidden flex flex-col text-center w-64 ml:ml-4 p-5'>
-                        <span className='font-bold text-white text-2xl pb-2 mr-auto'>Language</span>
+                        <span className='font-bold text-white text-2xl pb-2 '>Language</span>
                     </div>
-                    <div className=' flex flex-col w-72 item-center justify-center text-white ml:ml-4 p-5  '>
+                    <div className=' flex flex-col w-72 item-center justify-center text-white ml:ml-4 px-5  '>
                         <span className='flex font-semibold text-xl pb-2 mr-8'>
                             Solidity, Java, Python, C, C++, C#, JavaScript, Typescript
                         </span>
@@ -128,11 +128,11 @@ export default function Skills() {
                 </div>
                 <div className='flex flex-col item-center justify-center mx-auto'>
                     <div className='md:hidden flex flex-col w-64 ml:ml-4 p-5'>
-                        <span className='font-bold text-white text-2xl pb-2 mr-auto'>
+                        <span className='font-bold text-white text-2xl pb-2 '>
                             Web technologies
                         </span>
                     </div>
-                    <div className=' flex flex-col w-72 item-center justify-center text-white ml:ml-4 p-5  '>
+                    <div className=' flex flex-col w-72 item-center justify-center text-white ml:ml-4 px-5  '>
                         <span className='flex font-semibold text-xl pb-2 mr-8'>
                             HTML5, CSS3, Tailwind.css, Nextjs
                         </span>
@@ -140,11 +140,11 @@ export default function Skills() {
                 </div>
                 <div className='flex flex-col item-center justify-center mx-auto'>
                     <div className='md:hidden flex flex-col w-64 ml:ml-4 p-5'>
-                        <span className='font-bold text-white text-2xl pb-2 mr-auto'>
+                        <span className='font-bold text-white text-2xl pb-2 '>
                             Database
                         </span>
                     </div>
-                    <div className=' flex flex-col w-72 item-center justify-center text-white ml:ml-4 p-5  '>
+                    <div className=' flex flex-col w-72 item-center justify-center text-white ml:ml-4 px-5  '>
                         <span className='flex font-semibold text-xl pb-2 mr-8'>
                         SQL, MySQL, PostgreSQL, MongoDB
                         </span>
@@ -152,11 +152,11 @@ export default function Skills() {
                 </div>
                 <div className='flex flex-col item-center justify-center mx-auto'>
                     <div className='md:hidden flex flex-col w-64 ml:ml-4 p-5'>
-                        <span className='font-bold text-white text-2xl pb-2 mr-auto'>
+                        <span className='font-bold text-white text-2xl pb-2 '>
                             Platforms
                         </span>
                     </div>
-                    <div className=' flex flex-col w-72 item-center justify-center text-white ml:ml-4 p-5  '>
+                    <div className=' flex flex-col w-72 item-center justify-center text-white ml:ml-4 px-5  '>
                         <span className='flex font-semibold text-xl pb-2 mr-8'>
                         GIT, GitHub, Unity(GameEngine), Eclipse, Visual Studio code, .net
                         Adobe suite: Photoshop, PremierPro, AfterEffects, Illustrator, XD.
