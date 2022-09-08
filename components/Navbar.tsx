@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '@mui/material/Button'
 import Menu from '@mui/material/Menu'
 import MenuItem from '@mui/material/MenuItem'
 import { useState } from 'react'
@@ -40,9 +39,8 @@ export default function Navbar() {
     <div className="flex w-full flex-1 flex-col justify-top">
           <nav className="flex items-center justify-between rounded-b-lg border-b border-green-500 flex-between py-6 xl:py-8 bg-slate-800 xl:px-20">
 
-            <div className="flex flex-col items-right flex-shrink-0 text-white mr-6 ml-10">
-              <a className=" inline-block rounded  text-white text-6xl font-bluureg">Om Raut</a>
-              {/* <span className='absolute inset-x-28 inset-y-8 text-lg text-green-400 font-bluureg pl-10'>Developer</span> */}
+            <div className="flex flex-col items-right flex-shrink-0 text-white mr-6 ml-5 sm:ml-10">
+              <a className=" inline-block rounded  text-white sm:text-6xl text-4xl font-bluureg">Om Raut</a>
             </div>
 
             <div className='hidden md:flex '>
@@ -81,16 +79,16 @@ export default function Navbar() {
               </div>
             </div>
             
-            <div className="md:hidden">
+            <div className="md:hidden pr-6">
               <button
                 id="basic-button"
                 aria-controls={open ? 'basic-menu' : undefined}
                 aria-haspopup="true"
                 aria-expanded={open ? 'true' : undefined}
                 onClick={handleClick}
-                className="!capitalize flex items-center px-3 py-2 border rounded text-green-300 border-green-300 hover:text-white hover:border-white"
+                className="!capitalize flex items-center px-3 py-2 text-white border-green-300 "
               >
-                <svg className="fill-current h-5 w-6 " viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <svg className="fill-current h-10 w-8 " viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                   <title>Menu</title>
                   <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
                 </svg>
