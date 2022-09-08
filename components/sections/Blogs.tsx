@@ -7,7 +7,7 @@ export default function Blog() {
     <>
         <div className='flex flex-col justify-center item-center mx-auto'>
             <header className=' flex item-center content-center justify-center text-green-500 font-bold md:pb-5 my-5'>
-              <div className='flex text-7xl font-bluureg sm:text-9.5xl ml:text-10.5xl  mx-auto lg:hidden'>
+              <div className='flex text-8.5xl font-bluureg sm:text-9.5xl ml:text-10.5xl  mx-auto lg:hidden'>
                   <div>
                     <span className='font-bold'>B</span>
                   </div>

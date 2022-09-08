@@ -10,7 +10,7 @@ export default function Projects() {
         <div className='flex flex-col justify-center item-center mx-auto'>
             
             <header className=' flex item-center content-center justify-center text-green-500 font-bold md:pb-5 my-5'>
-                <div className='flex text-7xl font-bluureg sm:text-9xl ml:text-9.5xl  mx-auto lg:hidden'>
+                <div className='flex text-7.5xl font-bluureg sm:text-9xl ml:text-9.5xl  mx-auto lg:hidden'>
                     <div>
                         <span className='font-bold '>P</span>
                     </div>
@@ -66,7 +66,7 @@ export default function Projects() {
             {/* Thoughts */}
             <div className='hidden md:flex my-4 item-center justify-center '>
                 <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
-                    <span className='flex font-bold text-2xl pb-2'>THOUGHTS</span>
+                    <span className='flex font-bold text-2xl pb-2'>THOUGHTS: A Blockchain App</span>
                     <div className=' mx-auto ' >
                         <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
                             This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 
@@ -88,7 +88,7 @@ export default function Projects() {
                 
                 <div className='flex flex-col item-center justify-center  columns-2 w-80 md:w-96 text-xl text-white mx-auto p-5'>
                     
-                    <span className='flex font-bold text-2xl pb-2 text-center mx-auto text-center sm:text-left'>THOUGHTS</span>
+                    <span className='flex font-bold text-2xl pb-2 text-center mx-auto text-center sm:text-left'>THOUGHTS: A Blockchain App</span>
                     <div className=' mx-auto text-center sm:text-left' >
                         <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
                             This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 
@@ -118,7 +118,7 @@ export default function Projects() {
                     />
                 </div>
                 <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
-                    <span className='flex font-bold text-2xl pb-2'>FaceRec</span>
+                    <span className='flex font-bold text-2xl pb-2'>Client Management WebApp</span>
                     <div className=' mx-auto' >
                         <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
                             This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 
@@ -139,7 +139,7 @@ export default function Projects() {
                 </div>
                 <div className='flex flex-col item-center justify-center  columns-2 w-80 md:w-96 text-xl text-white mx-auto p-5'>
                     
-                    <span className='flex font-bold text-2xl pb-2 text-center mx-auto text-center sm:text-left'>FaceRec</span>
+                    <span className='flex font-bold text-2xl pb-2 text-center mx-auto text-center sm:text-left'>Client Management WebApp</span>
                     <div className=' mx-auto text-center sm:text-left' >
                         <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
                             This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 

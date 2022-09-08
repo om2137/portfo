@@ -9,7 +9,7 @@ export default function Experience() {
             
             <header className=' flex item-center content-center justify-center text-green-500 font-bold md:pb-5 my-5'>
                 
-                <div className='flex flex-col text-7xl font-bluureg sm:text-9xl ml:text-9.5xl  mx-auto lg:hidden'>
+                <div className='flex flex-col text-7.5xl font-bluureg sm:text-9xl ml:text-9.5xl  mx-auto lg:hidden'>
                     
                     <div className='relative inset-y-2 sm:inset-y-4 flex flex-col sm:pl-2 '>
                         <span className=' font-bold text-4xl sm:text-6xl ml:text-8xl text-white '>work</span>
