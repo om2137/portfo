@@ -1,14 +1,23 @@
 type Props = {
-    label: string
-    onClick: () => void
+    label: string,
+    className?: string
+    onClick?: () => void;
+    type?: string;
+    href?: string;
+    typeIn?: 'submit';
+   
 } 
-const Button: React.FC<Props> = ({label, onClick}) =>{
+const Button: React.FC<Props> = ({label, onClick, className, typeIn, href}) =>{
     return(
         <button
-            className="rounded-xl bg-red-400 py-2 px-8 text-white"
+            className={className+" text-white uppercase py-2 rounded font-normal text-sm "}
             onClick={onClick}
-        >
+            type={typeIn}
+            
+        ><a href={href} target="_blank">
             {label}
+        </a>
+            
         </button>
     )
 }
