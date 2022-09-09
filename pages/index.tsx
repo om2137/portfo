@@ -68,7 +68,7 @@ const Home: NextPage = () => {
       <main id='Experience' className="flex w-full flex-1 flex-col justify-top px-5 md:px-10 ">
         <Experience />
       </main>
-      <main>
+      <main  id='blogs' className="flex w-full flex-1 flex-col justify-top px-5 md:px-10 ">
         <Blogs/>
       </main>
       

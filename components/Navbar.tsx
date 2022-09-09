@@ -2,7 +2,7 @@ import React from 'react'
 import Menu from '@mui/material/Menu'
 import MenuItem from '@mui/material/MenuItem'
 import { useState } from 'react'
-import { Paper, styled, SvgIcon, Theme } from '@mui/material';
+import { styled, Theme } from '@mui/material';
 import { makeStyles } from '@material-ui/core/styles'
 
 
@@ -40,7 +40,7 @@ export default function Navbar() {
           <nav className="flex items-center justify-between rounded-b-lg border-b border-green-500 flex-between py-6 xl:py-8 bg-slate-800 xl:px-20">
 
             <div className="flex flex-col items-right flex-shrink-0 text-white mr-6 ml-5 sm:ml-10">
-              <a className=" inline-block rounded  text-white sm:text-6xl text-4xl font-bluureg">Om Raut</a>
+              <a href='/' className=" inline-block rounded  text-white sm:text-6xl text-4xl font-bluureg">Om Raut</a>
             </div>
 
             <div className='hidden md:flex '>
@@ -67,14 +67,16 @@ export default function Navbar() {
                   </a>
 
                   <a className="inline-block text-2xl px-2 py-1 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 "
-                      href="#Blog"
+                      href="#blogs"
                   >
                     Blog
                   </a>
 
                 </div>
                 <div>
-                  <a className="inline-block text-2xl font-bluureg px-2 py-1 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 ">Resume</a>
+                  <a className="inline-block text-2xl font-bluureg px-2 py-1 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 "
+                    href="https://drive.google.com/file/d/1HdwdtSW6rqVEoQIw0lBwMZd5FQc8HW5U/view?usp=sharing" target="_blank"
+                  >Resume</a>
                 </div>
               </div>
             </div>
@@ -122,52 +124,3 @@ export default function Navbar() {
   )
 }
 
-
-// import Button from '@mui/material/Button'
-// import Menu from '@mui/material/Menu'
-// import MenuItem from '@mui/material/MenuItem'
-// import { useState } from 'react'
-
-// export default function BasicMenu() {
-//   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null)
-//   const open = Boolean(anchorEl)
-
-//   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-//     setAnchorEl(event.currentTarget)
-//   }
-
-//   const handleClose = () => {
-//     setAnchorEl(null)
-//   }
-
-//   return (
-//     <div className="md:!hidden">
-//       <Button
-//         id="basic-button"
-//         aria-controls={open ? 'basic-menu' : undefined}
-//         aria-haspopup="true"
-//         aria-expanded={open ? 'true' : undefined}
-//         onClick={handleClick}
-//         className="!capitalize !text-white"
-//       >
-//         Browse
-//       </Button>
-//       <Menu
-//         id="basic-menu"
-//         anchorEl={anchorEl}
-//         open={open}
-//         onClose={handleClose}
-//         className="menu"
-//         MenuListProps={{
-//           'aria-labelledby': 'basic-button',
-//         }}
-//       >
-//         <MenuItem onClick={handleClose}>Home</MenuItem>
-//         <MenuItem onClick={handleClose}>TV Shows</MenuItem>
-//         <MenuItem onClick={handleClose}>Movies</MenuItem>
-//         <MenuItem onClick={handleClose}>New & Popular</MenuItem>
-//         <MenuItem onClick={handleClose}>My List</MenuItem>
-//       </Menu>
-//     </div>
-//   )
-// }
