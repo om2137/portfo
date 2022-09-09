@@ -4,10 +4,9 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
+import Button from './Button';
 import Typography from '@mui/material/Typography';
 import { createTheme,ThemeProvider  } from '@mui/material/styles';
-
 
 const theme = createTheme({
   palette: {
@@ -66,8 +65,9 @@ export default function MediaCard( {image, title, description, GHlink, blog}: Pr
       </CardContent>
       <CardActions style={ActionStyle} >
         <ThemeProvider theme={theme}>
-          <Button size="small" color='success' href={GHlink} target="_blank">Github</Button>
-          <Button size="small" color='warning' href={blog} target="_blank">Blog</Button> 
+          <Button label='Github' href={GHlink} className='text-green-500 hover:bg-green-700/20 px-2'/>
+          <Button label='Blog' href={blog}  className='text-yellow-500 hover:bg-yellow-700/20 px-2'/>
+
         </ThemeProvider>
       </CardActions>
     </Card>
