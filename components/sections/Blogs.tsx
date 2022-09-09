@@ -24,7 +24,7 @@ export default function Blog() {
                     <span className='font-bold'>S</span>
                   </div>
                   <div className='md:flex hidden text-white text-center text-lg md:text-2xl font-bold pl-10'>
-                    <a href="" style={{ writingMode: 'vertical-rl' }}>HELP</a>
+                    <a href="/#blogs" style={{ writingMode: 'vertical-rl' }}>HELP</a>
                   </div>
               </div>
               <div className='lg:flex text-7xl font-bluureg lg:text-11xl xl:text-15xl  mx-auto hidden' >
@@ -44,7 +44,7 @@ export default function Blog() {
                       <span className='font-bold'>S</span>
                     </div>
                     <div className='md:flex hidden text-white text-center text-lg md:text-2xl font-bold pl-10 2xl:pl-20'>
-                      <a href="" style={{ writingMode: 'vertical-rl' }}>HELP</a>
+                      <a href="/#blogs" style={{ writingMode: 'vertical-rl' }}>HELP</a>
                     </div>
               </div>
             </header>

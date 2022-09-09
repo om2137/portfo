@@ -37,7 +37,7 @@ export default function Experience() {
                           <span className='font-bold'>Y</span>
                       </div>
                       <div className='md:flex hidden text-white text-center text-lg md:text-2xl font-bold pl-10 2xl:pl-20'>
-                          <a href="" style={{ writingMode: 'vertical-rl' }}>HELP</a>
+                          <a href="/#Experience" style={{ writingMode: 'vertical-rl' }}>HELP</a>
                       </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ export default function Experience() {
                           <span className='font-bold'>Y</span>
                       </div>
                           <div className='md:flex hidden text-white text-center text-lg md:text-2xl font-bold pl-10 2xl:pl-20'>
-                              <a href="" style={{ writingMode: 'vertical-rl' }}>HELP</a>
+                              <a href="/#Experience" style={{ writingMode: 'vertical-rl' }}>HELP</a>
                           </div>
                       </div>
                     

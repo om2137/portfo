@@ -33,7 +33,7 @@ export default function Projects() {
                         <span className='font-bold'>T</span>
                     </div>
                     <div className='md:flex hidden text-white text-center text-lg md:text-2xl font-bold pl-10'>
-                        <a href="" style={{ writingMode: 'vertical-rl' }}>HELP</a>
+                        <a href="/#Projects" style={{ writingMode: 'vertical-rl' }}>HELP</a>
                     </div>
                 </div>
                 <div className='lg:flex text-7xl font-bluureg lg:text-10xl  xl:text-12xl  mx-auto hidden'>
@@ -59,7 +59,7 @@ export default function Projects() {
                         <span className='font-bold'>T</span>
                     </div>
                     <div className='md:flex hidden text-white text-center text-lg md:text-2xl font-bold pl-10'>
-                        <a href="" style={{ writingMode: 'vertical-rl' }}>HELP</a>
+                        <a href="/#Projects" style={{ writingMode: 'vertical-rl' }}>HELP</a>
                     </div>
                 </div>
             </header>

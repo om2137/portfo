@@ -33,7 +33,7 @@ export default function Skills() {
                         <span className='font-bold'>S</span>
                     </div>
                     <div className='md:flex hidden text-white text-center text-lg md:text-2xl font-bold pl-10'>
-                        <a href="" style={{ writingMode: 'vertical-rl' }}>HELP</a>
+                        <a href="/#Skills" style={{ writingMode: 'vertical-rl' }}>HELP</a>
                     </div>
                 </div>
                 <div className='lg:flex text-7xl font-bluureg lg:text-11xl xl:text-15xl mx-auto hidden' >
@@ -56,8 +56,8 @@ export default function Skills() {
                         <div>
                             <span className='font-bold'>S</span>
                         </div>
-                        <div className='md:flex hidden text-white text-start text-lg font-bluureg md:text-2xl pl-10  pt-14'>
-                            <a href="" style={{ writingMode: 'vertical-rl' }}>HELP</a>
+                        <div className='md:flex hidden text-white text-center text-lg md:text-2xl font-bold pl-10'>
+                            <a href="#Skills" style={{ writingMode: 'vertical-rl' }}>HELP</a>
                         </div>
                     </h2>
                         
