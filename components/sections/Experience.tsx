@@ -74,7 +74,7 @@ export default function Experience() {
                     
                 </div>
             </header>
-
+            {/* elevate */}
             <div className='hidden md:flex my-4 item-center justify-center '>
                 <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
                     <span className='flex font-bold text-2xl pb-2'>THOUGHTS</span>
@@ -85,14 +85,35 @@ export default function Experience() {
                         </p>
                     </div>         
                 </div>
-                <div className=' md:flex flex-col item-center justify-center ml:ml-20 p-5  hidden'>
-                    <MediaCard 
-                        image='/card.jpg' 
-                        title='Card'
-                        description='naruto' 
-                        GHlink=''
-                        blog=''
-                    />
+                <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
+                    <span className='flex font-bold text-2xl pb-2'>THOUGHTS</span>
+                    <div className=' mx-auto' >
+                        <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
+                            This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 
+                            The source code for this is available on GitHub on following link: github.com/om2137/Thoughts
+                        </p>
+                    </div>         
+                </div>
+            </div>
+            {/* moodme */}
+            <div className='hidden md:flex my-4 item-center justify-center '>
+                <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
+                    <span className='flex font-bold text-2xl pb-2'>THOUGHTS</span>
+                    <div className=' mx-auto' >
+                        <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
+                            This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 
+                            The source code for this is available on GitHub on following link: github.com/om2137/Thoughts
+                        </p>
+                    </div>         
+                </div>
+                <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
+                    <span className='flex font-bold text-2xl pb-2'>THOUGHTS</span>
+                    <div className=' mx-auto' >
+                        <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
+                            This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 
+                            The source code for this is available on GitHub on following link: github.com/om2137/Thoughts
+                        </p>
+                    </div>         
                 </div>
             </div>
             <div className='md:hidden flex flex-col my-4 item-center justify-center '>
