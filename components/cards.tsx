@@ -29,6 +29,7 @@ interface Props {
   description: string;
   GHlink: string;
   blog: string;
+  youtube?: string;
 }
 const imgStyle = {
   minWidth: '60px',
@@ -47,7 +48,7 @@ const ActionStyle={
   display: 'flex',
 }
 
-export default function MediaCard( {image, title, description, GHlink, blog}: Props ) {
+export default function MediaCard( {image, title, description, GHlink, blog, youtube}: Props ) {
   return (
     <Card style={cardStyle} >
       <CardMedia
@@ -65,9 +66,16 @@ export default function MediaCard( {image, title, description, GHlink, blog}: Pr
       </CardContent>
       <CardActions style={ActionStyle} >
         <ThemeProvider theme={theme}>
-          <Button label='Github' href={GHlink} className='text-green-500 hover:bg-green-700/20 px-2'/>
-          <Button label='Blog' href={blog}  className='text-yellow-500 hover:bg-yellow-700/20 px-2'/>
-
+          
+          {
+            GHlink? <Button label='Github' href={GHlink} className='text-green-500 hover:bg-green-700/20 px-2'/>: null
+          }
+          {
+            blog? <Button label='Blog' href={blog}  className='text-yellow-500 hover:bg-yellow-700/20 px-2'/>: null
+          }
+          {
+            youtube? <Button label='Youtube' href={youtube}  className='text-red-500 hover:bg-red-700/20 px-2'/> : null
+          }
         </ThemeProvider>
       </CardActions>
     </Card>
