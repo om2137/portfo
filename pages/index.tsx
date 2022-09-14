@@ -1,12 +1,9 @@
 
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import MediaCard from '../components/cards';
-import Navbar from '../components/Navbar';
-import Grid from '@mui/material/Grid';
-import { CenterFocusStrong, FormatAlignJustify } from '@mui/icons-material';
+import Navbar from '../components/Navbar';;
 import Projects from '../components/sections/Projects';
+// import Projects from '../components/sections/Projects';
 import Skills from '../components/sections/Skills';
 import Experience from '../components/sections/Experience';
 import Blogs from '../components/sections/Blogs';
@@ -72,6 +69,7 @@ const Home: NextPage = () => {
         <Blogs/>
       </main>
       
+
 
       
     </div>
