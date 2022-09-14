@@ -76,7 +76,7 @@ export default function Projects() {
                 </div>
                 <div className=' md:flex flex-col item-center justify-center ml:ml-20 p-5  hidden'>
                     <MediaCard 
-                        image='/card.jpg' 
+                        image='/cover-min.png' 
                         title='Card'
                         description='naruto' 
                         GHlink=''
@@ -98,7 +98,7 @@ export default function Projects() {
                 </div>
                 <div className='flex item-center justify-center mx-2 p-5 '>
                     <MediaCard 
-                        image='/card.jpg' 
+                        image='/cover-min.png' 
                         title='Card'
                         description='naruto' 
                         GHlink=''
@@ -106,11 +106,11 @@ export default function Projects() {
                     />
                 </div>
             </div>  
-            {/* FaceRec */} 
+            {/* gym mgmt */} 
             <div className='hidden md:flex my-4 item-center justify-center '>
                 <div className=' md:flex flex-col item-center justify-center ml:mr-20 p-5  hidden'>
                     <MediaCard 
-                        image='/goku.jpg' 
+                        image='/CS.png' 
                         title='Card'
                         description='naruto' 
                         GHlink=''
@@ -120,9 +120,9 @@ export default function Projects() {
                 <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
                     <span className='flex font-bold text-2xl pb-2'>Client Management WebApp</span>
                     <div className=' mx-auto' >
-                        <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
-                            This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 
-                            The source code for this is available on GitHub on following link: github.com/om2137/Thoughts
+                        <p>This is a web application for pushing, managing and updating the clients information. (very initial thought) 
+                            Other features will be added. Techstack used is MERN, NextJS as a react framework and Tailwind.CSS for styling. 
+                            MongoDB is used as a database and Cloudinary for storing files.
                         </p>
                     </div>         
                 </div>                
@@ -130,7 +130,7 @@ export default function Projects() {
             <div className='md:hidden flex flex-col my-4 item-center justify-center '>
                 <div className='flex item-center justify-center mx-2 p-5 '>
                     <MediaCard 
-                        image='/goku.jpg' 
+                        image='/CS.png' 
                         title='Card'
                         description='naruto' 
                         GHlink=''
@@ -141,9 +141,9 @@ export default function Projects() {
                     
                     <span className='flex font-bold text-2xl pb-2 text-center mx-auto text-center sm:text-left'>Client Management WebApp</span>
                     <div className=' mx-auto text-center sm:text-left' >
-                        <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
-                            This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 
-                            The source code for this is available on GitHub on following link: github.com/om2137/Thoughts
+                        <p>This is a web application for pushing, managing and updating the clients information. (very initial thought) 
+                            Other features will be added. Techstack used is MERN, NextJS as a react framework and Tailwind.CSS for styling. 
+                            MongoDB is used as a database and Cloudinary for storing files.
                         </p>
                     </div>         
                 </div>
@@ -164,19 +164,19 @@ export default function Projects() {
                             
                         </Grid>
                         <Grid item xs={12} sm={6} md={3} xl={2}>
-                            <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655202890460%2FaUgxyVYls.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
-                            title='DEV' 
+                            <MediaCard image='CS.png'
+                            title='Client Management WebApp' 
                             description='description'
-                            GHlink=''
-                            blog=''
+                            GHlink='/'
+                            blog='/'
                             />
                         </Grid>
                         <Grid item xs={12} sm={6} md={3} xl={2}>
-                            <MediaCard image='/card.jpg' 
-                            title='Card'
+                            <MediaCard image='/git.png' 
+                            title='Face Recognition'
                             description='naruto' 
-                            GHlink=''
-                            blog=''
+                            GHlink='/'
+                            blog='/'
                             />
                         </Grid>
                     </Grid>
@@ -190,7 +190,7 @@ export default function Projects() {
                         marginRight="20px"
                     >
                         <Grid item xs={12} sm={6} md={4}   >
-                            <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1654602293741%2FXEtW0r2im.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
+                            <MediaCard image='cover.min.png'
                             title='Thoughts' 
                             description='description' 
                             GHlink='https://github.com/om2137/Thoughts'
@@ -198,19 +198,19 @@ export default function Projects() {
                             />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} >
-                            <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655202890460%2FaUgxyVYls.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
-                            title='DEV' 
+                            <MediaCard image='CS.png'
+                            title='Client Management' 
                             description='description'
-                            GHlink=''
-                            blog=''
+                            GHlink='/'
+                            blog='/'
                             />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} >
-                            <MediaCard image='/card.jpg' 
-                            title='Card'
+                            <MediaCard image='/git.png' 
+                            title='Face Recognition'
                             description='naruto' 
-                            GHlink=''
-                            blog=''
+                            GHlink='/'
+                            blog='/'
                             />
                         </Grid>
                     </Grid>
