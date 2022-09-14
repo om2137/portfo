@@ -161,7 +161,12 @@ export default function Projects() {
                         alignItems="center"                
                     >
                         <Grid item xs={12} sm={6} md={3} xl={2} >
-                            
+                            <MediaCard image='cover-min.png'
+                                title='Thoughts' 
+                                description='description' 
+                                GHlink='https://github.com/om2137/Thoughts'
+                                blog='https://easydev.tech/thoughts-decentralized-twitter-like-app-web3'
+                            />
                         </Grid>
                         <Grid item xs={12} sm={6} md={3} xl={2}>
                             <MediaCard image='CS.png'
@@ -190,7 +195,7 @@ export default function Projects() {
                         marginRight="20px"
                     >
                         <Grid item xs={12} sm={6} md={4}   >
-                            <MediaCard image='cover.min.png'
+                            <MediaCard image='cover-min.png'
                             title='Thoughts' 
                             description='description' 
                             GHlink='https://github.com/om2137/Thoughts'
