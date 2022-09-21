@@ -63,16 +63,23 @@ export default function Blog() {
                           </Grid>
                           <Grid item xs={12} sm={6} md={3} xl={2}>
                             <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1654602293741%2FXEtW0r2im.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
-                              title='Thoughts' 
-                              description='description' 
+                              title='Thoughts-Dapp' 
+                              description='A decentralized Dapp on ethereum, built on solidity and NextJs.' 
                               GHlink='https://github.com/om2137/Thoughts'
                               blog='https://easydev.tech/thoughts-decentralized-twitter-like-app-web3'
                             />
                           </Grid>
+                          <Grid item xs={12} sm={6} md={4} >
+                              <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655202890460%2FaUgxyVYls.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
+                              title='All about CS Degree' 
+                              description='Everything to know about CS Degree.' 
+                              blog='/'
+                              />
+                          </Grid>
                           <Grid item xs={12} sm={6} md={3} xl={2}>
                               <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1657304559926%2FE4ZFRel9v.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' 
-                              title='Card'
-                              description='naruto' 
+                              title='Git for beginners'
+                              description='most used basic Git commands for beginners' 
                               GHlink=''
                               blog=''
                               youtube='https://www.youtube.com/results?search_query=conditional+button+nextjs'
@@ -90,8 +97,8 @@ export default function Blog() {
                       >
                           <Grid item xs={12} sm={6} md={4}   >
                               <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1654602293741%2FXEtW0r2im.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
-                              title='Thoughts' 
-                              description='description' 
+                              title='Thoughts-Dapp' 
+                              description='A decentralized Dapp on ethereum, built on solidity and NextJs.' 
                               GHlink='https://github.com/om2137/Thoughts'
                               blog='https://easydev.tech/thoughts-decentralized-twitter-like-app-web3'
                               youtube='https://www.youtube.com/watch?v=BbcPDPcfD-8'
@@ -99,16 +106,16 @@ export default function Blog() {
                           </Grid>
                           <Grid item xs={12} sm={6} md={4} >
                               <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655202890460%2FaUgxyVYls.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
-                              title='DEV' 
-                              description='description'
+                              title='All about CS Degree' 
+                              description='Everything to know about CS Degree.'
                               GHlink='/'
                               blog='/'
                               />
                           </Grid>
                           <Grid item xs={12} sm={6} md={4} >
                               <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1657304559926%2FE4ZFRel9v.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' 
-                              title='Card'
-                              description='naruto' 
+                              title='Git for beginners'
+                              description='most used basic Git commands for beginners' 
                               GHlink='/'
                               blog='/'
                               />
