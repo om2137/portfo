@@ -81,9 +81,11 @@ export default function Experience() {
                     <span className='flex font-semibold text-2xl pb-2'>Software developer</span>
                     <div className=' mx-auto ml-10' >
                         <ul className='list-disc '>
-                            <li>worked on various unity SDKs of the company.</li>
-                            <li>such as emotion SDK, gender SDK and ethnicity SDK etc.</li>
-                            <li>Tested the old SDKs and also on going.</li>
+                            <li>Worked on network programming which is at follows.</li>
+                            <li> Implemented rest API.</li>
+                            <li> Implemented UDP socket and TCP socket.</li>
+                            <li> Implemented csv conversion.</li>
+                            <li> Worked with Tensorflow.</li>
                         </ul>
                     </div>         
                 </div>
@@ -108,9 +110,11 @@ export default function Experience() {
                     <span className='flex font-semibold text-2xl pb-2 text-center mx-auto text-center sm:text-left'>Software developer</span>
                     <div className=' mx-auto  sm:text-left' >
                         <ul className='list-disc '>
-                            <li>worked on various unity SDKs of the company.</li>
-                            <li>such as emotion SDK, gender SDK and ethnicity SDK etc.</li>
-                            <li>Tested the old SDKs and also on going.</li>
+                            <li>Worked on network programming which is at follows.</li>
+                            <li> Implemented rest API.</li>
+                            <li> Implemented UDP socket and TCP socket.</li>
+                            <li> Implemented csv conversion.</li>
+                            <li> Worked with Tensorflow.</li>
                         </ul>
                     </div>         
                 </div>
