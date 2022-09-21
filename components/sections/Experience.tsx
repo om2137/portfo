@@ -77,65 +77,53 @@ export default function Experience() {
             {/* elevate */}
             <div className='hidden md:flex my-4 item-center justify-center '>
                 <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
-                    <span className='flex font-bold text-2xl pb-2'>THOUGHTS</span>
-                    <div className=' mx-auto' >
-                        <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
-                            This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 
-                            The source code for this is available on GitHub on following link: github.com/om2137/Thoughts
-                        </p>
+                    <span className='flex font-bold text-2xl pb-2'>ELEVATE AI</span>
+                    <span className='flex font-semibold text-2xl pb-2'>Software developer</span>
+                    <div className=' mx-auto ml-10' >
+                        <ul className='list-disc '>
+                            <li>worked on various unity SDKs of the company.</li>
+                            <li>such as emotion SDK, gender SDK and ethnicity SDK etc.</li>
+                            <li>Tested the old SDKs and also on going.</li>
+                        </ul>
                     </div>         
                 </div>
                 <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
-                    <span className='flex font-bold text-2xl pb-2'>THOUGHTS</span>
-                    <div className=' mx-auto' >
-                        <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
-                            This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 
-                            The source code for this is available on GitHub on following link: github.com/om2137/Thoughts
-                        </p>
+                    <span className='flex font-bold text-2xl pb-2'>MoodMe</span>
+                    <span className='flex font-semibold text-2xl pb-2'>Software developer</span>
+                    <div className='mx-auto pl-10' >
+                        <ul className='list-disc'>
+                            <li>worked on various unity SDKs of the company.</li>
+                            <li>such as emotion SDK, gender SDK and ethnicity SDK etc.</li>
+                            <li>Tested the old SDKs and also on going.</li>
+                        </ul>
                     </div>         
                 </div>
             </div>
-            {/* moodme */}
-            <div className='hidden md:flex my-4 item-center justify-center '>
-                <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
-                    <span className='flex font-bold text-2xl pb-2'>THOUGHTS</span>
-                    <div className=' mx-auto' >
-                        <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
-                            This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 
-                            The source code for this is available on GitHub on following link: github.com/om2137/Thoughts
-                        </p>
-                    </div>         
-                </div>
-                <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
-                    <span className='flex font-bold text-2xl pb-2'>THOUGHTS</span>
-                    <div className=' mx-auto' >
-                        <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
-                            This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 
-                            The source code for this is available on GitHub on following link: github.com/om2137/Thoughts
-                        </p>
-                    </div>         
-                </div>
-            </div>
+            {/* moodme */}           
             <div className='md:hidden flex flex-col my-4 item-center justify-center '>
                 
                 <div className='flex flex-col item-center justify-center  columns-2 w-80 md:w-96 text-xl text-white mx-auto p-5'>
                     
-                    <span className='flex font-bold text-2xl pb-2 text-center mx-auto text-center sm:text-left'>THOUGHTS</span>
-                    <div className=' mx-auto text-center sm:text-left' >
-                        <p>This is a very basic blockchain project, which is a short message(thought) sharing app. 
-                            This is basically a decentralized twitter-like app, which takes users and allows them to share a short message which is publicly viewable. 
-                            The source code for this is available on GitHub on following link: github.com/om2137/Thoughts
-                        </p>
+                    <span className='flex font-bold text-2xl pb-2 text-center mx-auto text-center sm:text-left'>ELEVATE AI</span>
+                    <span className='flex font-semibold text-2xl pb-2 text-center mx-auto text-center sm:text-left'>Software developer</span>
+                    <div className=' mx-auto  sm:text-left' >
+                        <ul className='list-disc '>
+                            <li>worked on various unity SDKs of the company.</li>
+                            <li>such as emotion SDK, gender SDK and ethnicity SDK etc.</li>
+                            <li>Tested the old SDKs and also on going.</li>
+                        </ul>
                     </div>         
                 </div>
-                <div className='flex item-center justify-center mx-2 p-5 '>
-                    <MediaCard 
-                        image='/card.jpg' 
-                        title='Card'
-                        description='naruto' 
-                        GHlink=''
-                        blog=''
-                    />
+                <div  className='flex flex-col item-center justify-center  columns-2 w-80 md:w-96 text-xl text-white mx-auto p-5'>
+                    <span className='flex font-bold text-2xl pb-2 text-center mx-auto text-center sm:text-left'>MoodMe</span>
+                    <span className='flex font-semibold text-2xl pb-2 text-center mx-auto text-center sm:text-left'>Software developer</span>
+                    <div className=' mx-auto  sm:text-left' >
+                        <ul className='list-disc '>
+                            <li>worked on various unity SDKs of the company.</li>
+                            <li>such as emotion SDK, gender SDK and ethnicity SDK etc.</li>
+                            <li>Tested the old SDKs and also on going.</li>
+                        </ul>
+                    </div>    
                 </div>
             </div>  
             
