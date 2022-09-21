@@ -27,8 +27,8 @@ interface Props {
   image: string;
   title: string;
   description: string;
-  GHlink: string;
-  blog: string;
+  GHlink?: string;
+  blog?: string;
   youtube?: string;
 }
 const imgStyle = {
