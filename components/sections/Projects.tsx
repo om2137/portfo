@@ -75,13 +75,12 @@ export default function Projects() {
                     </div>         
                 </div>
                 <div className=' md:flex flex-col item-center justify-center ml:ml-20 p-5  hidden'>
-                    <MediaCard 
-                        image='/cover-min.png' 
-                        title='Card'
-                        description='naruto' 
-                        GHlink=''
-                        blog=''
-                    />
+                <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1654602293741%2FXEtW0r2im.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
+                              title='Thoughts-Dapp' 
+                              description='A decentralized Dapp on ethereum, built on solidity and NextJs.' 
+                              GHlink='https://github.com/om2137/Thoughts'
+                              blog='https://easydev.tech/thoughts-decentralized-twitter-like-app-web3'
+                            />
                 </div>
             </div>
             <div className='md:hidden flex flex-col my-4 item-center justify-center '>
@@ -97,23 +96,22 @@ export default function Projects() {
                     </div>         
                 </div>
                 <div className='flex item-center justify-center mx-2 p-5 '>
-                    <MediaCard 
-                        image='/cover-min.png' 
-                        title='Card'
-                        description='naruto' 
-                        GHlink=''
-                        blog=''
-                    />
+                <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1654602293741%2FXEtW0r2im.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
+                              title='Thoughts-Dapp' 
+                              description='A decentralized Dapp on ethereum, built on solidity and NextJs.' 
+                              GHlink='https://github.com/om2137/Thoughts'
+                              blog='https://easydev.tech/thoughts-decentralized-twitter-like-app-web3'
+                            />
                 </div>
             </div>  
             {/* gym mgmt */} 
             <div className='hidden md:flex my-4 item-center justify-center '>
                 <div className=' md:flex flex-col item-center justify-center ml:mr-20 p-5  hidden'>
                     <MediaCard 
-                        image='/CS.png' 
-                        title='Card'
-                        description='naruto' 
-                        GHlink=''
+                        image='/gymmgmt.png' 
+                        title='Client Management'
+                        description='This is a web application for pushing, managing and updating the clients information.' 
+                        GHlink='https://github.com/om2137/GymMgmt'
                         blog=''
                     />
                 </div>
@@ -127,16 +125,7 @@ export default function Projects() {
                     </div>         
                 </div>                
             </div>
-            <div className='md:hidden flex flex-col my-4 item-center justify-center '>
-                <div className='flex item-center justify-center mx-2 p-5 '>
-                    <MediaCard 
-                        image='/CS.png' 
-                        title='Card'
-                        description='naruto' 
-                        GHlink=''
-                        blog=''
-                    />
-                </div>
+            <div className='md:hidden flex flex-col my-10 item-center justify-center '>
                 <div className='flex flex-col item-center justify-center  columns-2 w-80 md:w-96 text-xl text-white mx-auto p-5'>
                     
                     <span className='flex font-bold text-2xl pb-2 text-center mx-auto text-center sm:text-left'>Client Management WebApp</span>
@@ -147,12 +136,22 @@ export default function Projects() {
                         </p>
                     </div>         
                 </div>
-                
+                <div className='flex item-center justify-center mx-2 p-5 '>
+                    <MediaCard 
+                        image='/gymmgmt.png' 
+                        title='Client Management'
+                        description='This is a web application for pushing, managing and updating the clients information.' 
+                        GHlink='https://github.com/om2137/GymMgmt'
+                        blog=''
+                    />
+                </div>
             </div>
 
              {/*  */}
-            <div className=' mx-auto md:my-20'>
-                <div className='flex content-center justify-center pb-10 sm:hidden mx-5'>
+            {/* <div className="text-white text-center text-4xl p-4 font-semibold">Other Projcets</div> */}
+            <div className='flex flex-col  mx-4 md:my-20'>
+                {/* mobile */}
+                <div className='flex item-center content-center justify-center pb-10  sm:hidden mx-5'>
                     <Grid
                         xs
                         container 
@@ -163,30 +162,30 @@ export default function Projects() {
                         <Grid item xs={12} sm={6} md={3} xl={2} >
                             <MediaCard image='cover-min.png'
                                 title='Thoughts' 
-                                description='description' 
+                                description='A decentralized Dapp  on ethereum, built on solidity and NextJs.' 
                                 GHlink='https://github.com/om2137/Thoughts'
                                 blog='https://easydev.tech/thoughts-decentralized-twitter-like-app-web3'
                             />
                         </Grid>
                         <Grid item xs={12} sm={6} md={3} xl={2}>
-                            <MediaCard image='CS.png'
-                            title='Client Management WebApp' 
-                            description='description'
-                            GHlink='/'
-                            blog='/'
+                            <MediaCard image='gymmgmt.png'
+                            title='Client Management ' 
+                            description='This is a simple ERP system, a MERN web application. that handle the clients information.'
+                            GHlink='https://github.com/om2137/GymMgmt'
+                            blog=''
                             />
                         </Grid>
                         <Grid item xs={12} sm={6} md={3} xl={2}>
                             <MediaCard image='/git.png' 
                             title='Face Recognition'
-                            description='naruto' 
-                            GHlink='/'
-                            blog='/'
+                            description='This is an AR and face tracking application, that runs on arcore-supported devices.' 
+                            GHlink='https://github.com/om2137/FaceRec'
+                            blog='https://easydev.tech/face-recognition-with-unity3d'
                             />
                         </Grid>
                     </Grid>
                 </div>
-                    
+                {/* desktop */}
                 <div className='flex item-center justify-center pb-4 xsm:hidden sm:flex mx-auto mx-5'>
                     <Grid
                         container 
@@ -197,25 +196,26 @@ export default function Projects() {
                         <Grid item xs={12} sm={6} md={4}   >
                             <MediaCard image='cover-min.png'
                             title='Thoughts' 
-                            description='description' 
+                            description='A decentralized Dapp on ethereum blockchain, built on solidity and NextJs + TailwindCSS.'  
                             GHlink='https://github.com/om2137/Thoughts'
                             blog='https://easydev.tech/thoughts-decentralized-twitter-like-app-web3'
                             />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} >
-                            <MediaCard image='CS.png'
-                            title='Client Management' 
-                            description='description'
-                            GHlink='/'
-                            blog='/'
+                            <MediaCard 
+                                image='/gymmgmt.png' 
+                                title='Client Management '
+                                description='This is a simple ERP system, a MERN web application. that handle the clients information.' 
+                                GHlink='https://github.com/om2137/GymMgmt'
+                                blog=''
                             />
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} >
-                            <MediaCard image='/git.png' 
+                            <MediaCard image='/facerec.png' 
                             title='Face Recognition'
-                            description='naruto' 
-                            GHlink='/'
-                            blog='/'
+                            description='This is an AR and face tracking application, that runs on arcore-supported devices. ' 
+                            GHlink='https://github.com/om2137/FaceRec'
+                            blog='https://easydev.tech/face-recognition-with-unity3d'
                             />
                         </Grid>
                     </Grid>
