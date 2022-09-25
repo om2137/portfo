@@ -73,7 +73,7 @@ export default function Blog() {
                               <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655202890460%2FaUgxyVYls.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
                               title='All about CS Degree' 
                               description='Everything to know about CS Degree.' 
-                              blog='/'
+                              blog='https://easydev.tech/computer-science-in-mumbai-university-r19-scheme'
                               />
                           </Grid>
                           <Grid item xs={12} sm={6} md={3} xl={2}>
@@ -81,8 +81,8 @@ export default function Blog() {
                               title='Git for beginners'
                               description='most used basic Git commands for beginners' 
                               GHlink=''
-                              blog=''
-                              youtube='https://www.youtube.com/results?search_query=conditional+button+nextjs'
+                              blog='https://easydev.tech/git-for-beginners-and-10-git-commands'
+                              youtube=''
                               />
                           </Grid>
                       </Grid>
@@ -108,18 +108,19 @@ export default function Blog() {
                               <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1655202890460%2FaUgxyVYls.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'
                               title='All about CS Degree' 
                               description='Everything to know about CS Degree.'
-                              GHlink='/'
-                              blog='/'
+                              GHlink=''
+                              blog='https://easydev.tech/computer-science-in-mumbai-university-r19-scheme'
                               />
                           </Grid>
                           <Grid item xs={12} sm={6} md={4} >
                               <MediaCard image='https://easydev.tech/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1657304559926%2FE4ZFRel9v.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75' 
                               title='Git for beginners'
                               description='most used basic Git commands for beginners' 
-                              GHlink='/'
-                              blog='/'
+                              GHlink=''
+                              blog='https://easydev.tech/git-for-beginners-and-10-git-commands'
                               />
                           </Grid>
+                          
                       </Grid>
                   </div>
           </div>
