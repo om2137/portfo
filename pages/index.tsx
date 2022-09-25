@@ -7,22 +7,28 @@ import Projects from '../components/sections/Projects';
 import Skills from '../components/sections/Skills';
 import Experience from '../components/sections/Experience';
 import Blogs from '../components/sections/Blogs';
+import Footer from '../components/footer';
+
 
 const Home: NextPage = () => {
-
+  
   return (
     <div className="flex  min-h-screen flex-col items-center justify-center bg-slate-900 ">
+      
       <Head>
         <title>Om Raut</title>
         <link rel="icon" href="/dev.png" />
       </Head>
       {/* navbar component */}
       <Navbar/>
-      
+      <div className="w-full text-white text-center py-2 bg-slate-700 ">
+        ** Beta Release **
+      </div>
       {/* All sub divisions */}
       
       {/* intro page */}
       <main className="flex w-full flex-1 flex-col justify-center px-10 py-10">
+
         <div >
             <div className='flex items-center justify-center  py-4 md:hidden '>
               <div className=' relative mb-4'>
@@ -69,7 +75,8 @@ const Home: NextPage = () => {
         <Blogs/>
       </main>
       
-
+      {/* <Footer/> */}
+      <Footer/>
 
       
     </div>
