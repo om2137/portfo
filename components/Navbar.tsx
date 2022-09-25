@@ -74,7 +74,7 @@ export default function Navbar() {
 
                 </div>
                 <div>
-                  <a className="inline-block text-2xl font-bluureg px-2 py-1 mr-2 rounded text-white mt-4 lg:inline-block lg:mt-0 "
+                  <a className="inline-block text-2xl font-bluureg px-2 py-1 mr-2 rounded text-green-400 mt-4 lg:inline-block lg:mt-0 "
                     href="https://drive.google.com/file/d/1HdwdtSW6rqVEoQIw0lBwMZd5FQc8HW5U/view?usp=sharing" target="_blank"
                   >Resume</a>
                 </div>
