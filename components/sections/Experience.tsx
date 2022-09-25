@@ -74,11 +74,12 @@ export default function Experience() {
                     
                 </div>
             </header>
-            {/* elevate */}
+            {/* desktop */}
             <div className='hidden md:flex my-4 item-center justify-center '>
-                <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
+                <div className='flex flex-col content-start justify-start  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
                     <span className='flex font-bold text-2xl pb-2'>ELEVATE AI</span>
                     <span className='flex font-semibold text-2xl pb-2'>Software developer</span>
+                    <span className='flex  text-xl pb-2'>May 2022 - Aug 2022</span>
                     <div className=' mx-auto ml-10' >
                         <ul className='list-disc '>
                             <li>Worked on network programming which is at follows.</li>
@@ -89,9 +90,10 @@ export default function Experience() {
                         </ul>
                     </div>         
                 </div>
-                <div className='flex flex-col content-center justify-center  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
+                <div className='flex flex-col content-start justify-start  columns-2 w-80 md:w-96 text-xl text-white  p-5'>
                     <span className='flex font-bold text-2xl pb-2'>MoodMe</span>
                     <span className='flex font-semibold text-2xl pb-2'>Software developer</span>
+                    <span className='flex  text-xl pb-2'>May 2022 - Aug 2022</span>
                     <div className='mx-auto pl-10' >
                         <ul className='list-disc'>
                             <li>worked on various unity SDKs of the company.</li>
@@ -101,7 +103,7 @@ export default function Experience() {
                     </div>         
                 </div>
             </div>
-            {/* moodme */}           
+            {/* mobile */}           
             <div className='md:hidden flex flex-col my-4 item-center justify-center '>
                 
                 <div className='flex flex-col item-center justify-center  columns-2 w-80 md:w-96 text-xl text-white mx-auto p-5'>
