@@ -51,8 +51,8 @@ const Home: NextPage = () => {
                     <span className="absolute inset-x-0.5 inset-y-0.5 text-center text-7.5xl font-bluureg sm:text-8xl md:text-9.5xl text-left md:text-left  font-bold text-white">Om Raut </span>
                     <span className='relative text-7.5xl font-bluureg sm:text-8xl md:text-9.5xl md:text-left font-bold text-green-500 '>Om Raut</span>
                   </div>
-                  <span className='text-sm text-white text-left  ml-7 pt-4'>
-                    <a href="https://github.com/om2137" target="_blank">github, </a><a href="https://twitter.com/omtwts" target="_blank">twitter, </a><a href="https://www.linkedin.com/in/omraut/" target="_blank">linkedin, </a><a href="https://easydev.tech/" target="_blank">hashnode.</a>  
+                  <span className='text-lg text-white font-semibold text-left  ml-7 pt-4'>
+                    <a href="https://github.com/om2137" target="_blank">Github, </a><a href="https://twitter.com/omtwts" target="_blank">Twitter, </a><a href="https://www.linkedin.com/in/omraut/" target="_blank">Linkedin, </a><a href="https://easydev.tech/" target="_blank">Hashnode.</a>  
                   </span> {/* all socials */}
                   {/* <span className='text-left text-lg md:text-3xl ml-7 pt-2 text-gray-300'>Hi, my name is Om Raut. <br /> I’m a software engineer from Navi Mumbai, India. <br/>I develope features and fix bugs in software.</span>   */}
                   <span className='w-fit text-left text-lg md:text-3xl ml-7 pt-2 text-gray-300'>Hi, I am Om – A Computer Science student and development enthusiast who likes to work with different frameworks, projects,<br/> and platforms.</span> 
